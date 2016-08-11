@@ -78,7 +78,10 @@ module.exports = {
                         "case": { "after": true },
                         "throw": { "after": true },
                         "return": { "after": true },
-                        "from": { "after": true }
+                        "from": { "after": true },
+                        "import": { "after": true },
+                        "export": { "after": true },
+                        "default": { "after": true }
                     }
                 }],
                 "linebreak-style": 2,
