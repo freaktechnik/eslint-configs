@@ -94,7 +94,7 @@ module.exports = {
                 "no-whitespace-before-property": 2,
                 "object-curly-spacing": [2, "always"],
                 "one-var-declaration-per-line": 2,
-                "one-var": 2,
+                "one-var": 1,
                 "operator-linebreak": 2,
                 "semi-spacing": 2,
                 "semi": 2,
