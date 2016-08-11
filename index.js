@@ -72,16 +72,15 @@ module.exports = {
                 "eol-last": 2,
                 "key-spacing": 2,
                 "keyword-spacing": [2, {
-                    "after": false,
                     "overrides": {
-                        "else": { "after": true },
-                        "case": { "after": true },
-                        "throw": { "after": true },
-                        "return": { "after": true },
-                        "from": { "after": true },
-                        "import": { "after": true },
-                        "export": { "after": true },
-                        "default": { "after": true }
+                        "if": { "after": false },
+                        "for": { "after": false },
+                        "while": { "after": false },
+                        "catch": { "after": false },
+                        "function": { "after": false },
+                        "super": { "after": false },
+                        "switch": { "after": false },
+                        "with": { "after": false }
                     }
                 }],
                 "linebreak-style": 2,
