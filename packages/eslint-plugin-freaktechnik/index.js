@@ -122,15 +122,27 @@ module.exports = {
             ],
             extends: ["plugin:freaktechnik/base", "plugin:node/recommended"]
         },
-        test: {
+        babel: {
             parser: "babel-eslint",
             parserOptions: {
                 ecmaVersion: 7,
                 sourceType: "module"
             },
             plugins: [
-                "ava",
                 "babel"
+            ],
+            rules: {
+                "generator-star-spacing": 0,
+                "arrow-parens": 0,
+                "node/no-unsupported-features": 0,
+                "babel/arrow-parens": 1,
+                "babel/generator-star-spacing": 1
+            }
+            extends: "plugin:freaktechnik/node"
+        },
+        test: {
+            plugins: [
+                "ava"
             ],
             rules: {
                 "jsdoc/check-param-names": 0,
@@ -144,13 +156,9 @@ module.exports = {
                 "jsdoc/require-param-description": 0,
                 "jsdoc/require-returns-type": 0,
                 "jsdoc/require-returns-description": 0,
-                "node/no-unsupported-features": 0,
-                "babel/arrow-parens": 1,
-                "babel/generator-star-spacing": 1,
-                "arrow-parens": 0,
                 "one-var": 0
             },
-            extends: ["plugin:freaktechnik/node", "plugin:ava/recommended"]
+            extends: ["plugin:freaktechnik/babel", "plugin:ava/recommended"]
         }
 
     }
