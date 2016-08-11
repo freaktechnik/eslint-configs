@@ -137,7 +137,7 @@ module.exports = {
                 "node/no-unsupported-features": 0,
                 "babel/arrow-parens": 1,
                 "babel/generator-star-spacing": 1
-            }
+            },
             extends: "plugin:freaktechnik/node"
         },
         test: {
