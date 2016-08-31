@@ -161,7 +161,31 @@ module.exports = {
                 "one-var": 0
             },
             extends: ["plugin:freaktechnik/babel", "plugin:ava/recommended"]
+        },
+        browser: {
+            parser: "babel-eslint",
+            env: {
+                node: false,
+                es6: true,
+                browser: true
+            },
+            parserOptions: {
+                ecmaVersion: 6
+            },
+            globals: {
+                addon: true,
+                self: true
+            },
+            plugins: [
+                "babel"
+            ],
+            rules: {
+                "generator-star-spacing": 0,
+                "arrow-parens": 0,
+                "babel/arrow-parens": 1,
+                "babel/generator-star-spacing": 1
+            },
+            extends: "plugin:freaktechnik/recommended"
         }
-
     }
 };
