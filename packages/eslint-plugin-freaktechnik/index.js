@@ -112,6 +112,13 @@ module.exports = {
                 "no-loop-func": 1,
                 "strict": 1
             },
+            settings: {
+                jsdoc: {
+                    tagNamePreference: {
+                        augments: "extends"
+                    }
+                }
+            },
             extends: ["eslint:recommended"]
         },
         node: {
