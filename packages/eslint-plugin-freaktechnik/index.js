@@ -172,10 +172,6 @@ module.exports = {
             parserOptions: {
                 ecmaVersion: 6
             },
-            globals: {
-                addon: true,
-                self: true
-            },
             plugins: [
                 "babel"
             ],
@@ -185,7 +181,7 @@ module.exports = {
                 "babel/arrow-parens": 1,
                 "babel/generator-star-spacing": 1
             },
-            extends: "plugin:freaktechnik/recommended"
+            extends: ["plugin:freaktechnik/recommended"]
         }
     }
 };
