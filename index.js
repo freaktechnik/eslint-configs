@@ -181,7 +181,7 @@ module.exports = {
                 "babel/arrow-parens": 1,
                 "babel/generator-star-spacing": 1
             },
-            extends: ["plugin:freaktechnik/recommended"]
+            extends: ["plugin:freaktechnik/base"]
         }
     }
 };
