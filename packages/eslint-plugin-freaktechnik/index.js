@@ -126,30 +126,19 @@ module.exports = {
                 node: true,
                 es6: true
             },
+            parserOptions: {
+                ecmaVersion: 2016
+            },
             plugins: [
                 "node"
             ],
             extends: ["plugin:freaktechnik/base", "plugin:node/recommended"]
         },
-        babel: {
-            parser: "babel-eslint",
+        test: {
             parserOptions: {
-                ecmaVersion: 7,
+                ecmaVersion: 2017,
                 sourceType: "module"
             },
-            plugins: [
-                "babel"
-            ],
-            rules: {
-                "generator-star-spacing": 0,
-                "arrow-parens": 0,
-                "node/no-unsupported-features": 0,
-                "babel/arrow-parens": 1,
-                "babel/generator-star-spacing": 1
-            },
-            extends: "plugin:freaktechnik/node"
-        },
-        test: {
             plugins: [
                 "ava"
             ],
@@ -165,28 +154,19 @@ module.exports = {
                 "jsdoc/require-param-description": 0,
                 "jsdoc/require-returns-type": 0,
                 "jsdoc/require-returns-description": 0,
-                "one-var": 0
+                "one-var": 0,
+                "node/no-unsupported-features": 0
             },
-            extends: ["plugin:freaktechnik/babel", "plugin:ava/recommended"]
+            extends: ["plugin:freaktechnik/node", "plugin:ava/recommended"]
         },
         browser: {
-            parser: "babel-eslint",
             env: {
                 node: false,
                 es6: true,
                 browser: true
             },
             parserOptions: {
-                ecmaVersion: 6
-            },
-            plugins: [
-                "babel"
-            ],
-            rules: {
-                "generator-star-spacing": 0,
-                "arrow-parens": 0,
-                "babel/arrow-parens": 1,
-                "babel/generator-star-spacing": 1
+                ecmaVersion: 2017
             },
             extends: ["plugin:freaktechnik/base"]
         }
