@@ -116,6 +116,11 @@ module.exports = {
                 jsdoc: {
                     tagNamePreference: {
                         augments: "extends"
+                    },
+                    additionalTagNames: {
+                        customTags: [
+                            "async"
+                        ]
                     }
                 }
             },
