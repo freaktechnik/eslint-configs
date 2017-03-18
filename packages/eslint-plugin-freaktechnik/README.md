@@ -10,4 +10,4 @@ Basic configurations freaktechnik really likes. Other people will probably find 
  - basic
  - node
  - test
-
+ - browser
