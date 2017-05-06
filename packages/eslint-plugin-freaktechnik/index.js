@@ -110,7 +110,9 @@ module.exports = {
                 "prefer-arrow-callback": 1,
                 "prefer-const": 1,
                 "no-loop-func": 1,
-                "strict": 1
+                "strict": 1,
+                "prefer-promise-reject-errors": 1,
+                "no-throw-literal": 1
             },
             settings: {
                 jsdoc: {
@@ -166,7 +168,6 @@ module.exports = {
         },
         browser: {
             env: {
-                node: false,
                 es6: true,
                 browser: true
             },
@@ -174,6 +175,14 @@ module.exports = {
                 ecmaVersion: 2017
             },
             extends: ["plugin:freaktechnik/base"]
+        },
+        extension: {
+            env: {
+                es6: true,
+                browser: true,
+                webextensions: true
+            },
+            extends: ["plugin:freaktechnik/browser"]
         }
     }
 };
