@@ -99,7 +99,11 @@ module.exports = {
                 "semi-spacing": 2,
                 "semi": 2,
                 "space-before-blocks": 2,
-                "space-before-function-paren": [2, "never"],
+                "space-before-function-paren": [2, {
+                    "anonymous": "never",
+                    "named": "never",
+                    "asyncArrow": "always"
+                }],
                 "no-alert": 2,
                 "space-infix-ops": 2,
                 "space-unary-ops": 2,
@@ -112,7 +116,8 @@ module.exports = {
                 "no-loop-func": 1,
                 "strict": 1,
                 "prefer-promise-reject-errors": 1,
-                "no-throw-literal": 1
+                "no-throw-literal": 1,
+                "semi-style": [2, "last"]
             },
             settings: {
                 jsdoc: {
