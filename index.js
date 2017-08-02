@@ -122,7 +122,8 @@ module.exports = {
             settings: {
                 jsdoc: {
                     tagNamePreference: {
-                        augments: "extends"
+                        augments: "extends",
+                        constant: "const"
                     },
                     additionalTagNames: {
                         customTags: [
