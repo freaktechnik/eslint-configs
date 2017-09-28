@@ -29,7 +29,6 @@
     "eslint-plugin-node": "^5.0.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-sort-class-members": "^1.2.0",
     "eslint-plugin-xss": "^0.1.8"
   },
   "peerDependencies": {
