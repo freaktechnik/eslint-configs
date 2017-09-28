@@ -176,7 +176,7 @@ module.exports = {
                 "unicode-bom": 2,
                 "getter-return": 2,
                 "no-template-curly-in-string": 2,
-                "class-methods-use-this": 2,
+                "class-methods-use-this": 1,
                 "no-duplicate-imports": 2,
                 "no-useless-computed-key": 2,
                 "no-useless-constructor": 2,
@@ -196,7 +196,9 @@ module.exports = {
                 "eslint-comments/no-duplicate-disable": 2,
                 "eslint-comments/no-unlimited-disable": 2,
                 "eslint-comments/no-unused-disable": 2,
-                "eslint-comments/no-unused-enable": 2
+                "eslint-comments/no-unused-enable": 2,
+                "promise/always-return": 1,
+                "security/detect-non-literal-fs-filename": 0
                 /* "sort-class-members/sort-class-members": [
                     2,
                     {
@@ -268,7 +270,8 @@ module.exports = {
                 "no-new-require": 2,
                 "no-sync": 1,
                 "no-buffer-constructor": 2,
-                "handle-callback-err": 1
+                "handle-callback-err": 1,
+                "security/detect-non-literal-fs-filename": 1
             },
             extends: [
                 "plugin:freaktechnik/base",
