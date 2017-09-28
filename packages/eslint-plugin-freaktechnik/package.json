@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-freaktechnik",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "ESLint default configs of freaktechnik.",
   "main": "index.js",
   "scripts": {
