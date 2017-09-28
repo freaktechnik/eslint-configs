@@ -20,7 +20,8 @@ module.exports = {
                 "security",
                 "filenames",
                 "promise",
-                "eslint-comments"
+                "eslint-comments",
+                "sort-class-members"
             ],
             rules: {
                 "jsdoc/check-param-names": 2,
@@ -128,7 +129,6 @@ module.exports = {
                 "no-multiple-empty-lines": 2,
                 "no-tabs": 2,
                 "no-trailing-spaces": 2,
-                "no-underscore-dangle": 2,
                 "no-unneeded-ternary": 2,
                 "no-whitespace-before-property": 2,
                 "object-curly-newline": [
@@ -193,7 +193,7 @@ module.exports = {
                     "^[a-z0-9-]+$"
                 ],
                 "eslint-comments/disable-enable-pair": 2,
-                "eslint-comments/no-udplicate-disable": 2,
+                "eslint-comments/no-duplicate-disable": 2,
                 "eslint-comments/no-unlimited-disable": 2,
                 "eslint-comments/no-unused-disable": 2,
                 "eslint-comments/no-unused-enable": 2,
