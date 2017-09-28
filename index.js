@@ -19,7 +19,8 @@ module.exports = {
                 "json",
                 "security",
                 "filenames",
-                "promise"
+                "promise",
+                "eslint-comments"
             ],
             rules: {
                 "jsdoc/check-param-names": 2,
@@ -35,9 +36,12 @@ module.exports = {
                 "jsdoc/require-returns-description": 0,
                 "valid-jsdoc": 1,
                 "block-scoped-var": 2,
-                "no-console": [2, {
-                    "allow": [ "warn", "error" ]
-                }],
+                "no-console": [
+                    2,
+                    {
+                        allow: [ "warn", "error" ]
+                    }
+                ],
                 "indent": ["error", 4],
                 "array-callback-return": 2,
                 "consistent-return": 1,
@@ -104,15 +108,15 @@ module.exports = {
                 "func-name-matching": 2,
                 "key-spacing": 2,
                 "keyword-spacing": [2, {
-                    "overrides": {
-                        "if": { "after": false },
-                        "for": { "after": false },
-                        "while": { "after": false },
-                        "catch": { "after": false },
-                        "function": { "after": false },
-                        "super": { "after": false },
-                        "switch": { "after": false },
-                        "with": { "after": false }
+                    overrides: {
+                        if: { "after": false },
+                        for: { "after": false },
+                        while: { "after": false },
+                        catch: { "after": false },
+                        function: { "after": false },
+                        super: { "after": false },
+                        switch: { "after": false },
+                        with: { "after": false }
                     }
                 }],
                 "linebreak-style": 2,
@@ -130,7 +134,8 @@ module.exports = {
                 "object-curly-newline": [
                     "error",
                     {
-                        "minProperties": 2
+                        minProperties: 2,
+                        consistent: true
                     }
                 ],
                 "object-curly-spacing": [2, "always"],
@@ -138,7 +143,7 @@ module.exports = {
                 "one-var-declaration-per-line": 2,
                 "one-var": 1,
                 "operator-linebreak": 2,
-                "padded-block": [
+                "padded-blocks": [
                     "error",
                     "never"
                 ],
@@ -146,9 +151,9 @@ module.exports = {
                 "semi": 2,
                 "space-before-blocks": 2,
                 "space-before-function-paren": [2, {
-                    "anonymous": "never",
-                    "named": "never",
-                    "asyncArrow": "always"
+                    anonymous: "never",
+                    named: "never",
+                    asyncArrow: "always"
                 }],
                 "no-alert": 2,
                 "space-infix-ops": 2,
