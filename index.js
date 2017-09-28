@@ -45,7 +45,6 @@ module.exports = {
                 "default-case": 2,
                 "dot-location": [2, "property"],
                 "dot-notation": 2,
-                "no-alert": 2,
                 "no-caller": 2,
                 "no-else-return": 2,
                 "no-empty-function": 2,
@@ -79,7 +78,7 @@ module.exports = {
                 "yoda": 2,
                 "no-catch-shadow": 2,
                 "no-shadow": 1,
-                "array-bracket-spacing": [
+                "array-bracket-newline": [
                     "error",
                     {
                         minItems: 2
@@ -265,7 +264,7 @@ module.exports = {
                 "no-sync": 1,
                 "no-buffer-constructor": 2,
                 "handle-callback-err": 1
-            }
+            },
             extends: [
                 "plugin:freaktechnik/base",
                 "plugin:node/recommended"
@@ -323,7 +322,7 @@ module.exports = {
             },
             rules: {
                 "strict": 0
-            }
+            },
             extends: [
                 "plugin:freaktechnik/browser"
             ]
