@@ -225,7 +225,7 @@ module.exports = {
                                     accessorPair: false
                                 }
                             ]
-                        }
+                        },
                         accessorPairPositioning: "getThenSet"
                     }
                 ]
