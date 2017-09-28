@@ -21,7 +21,7 @@ module.exports = {
                 "filenames",
                 "promise",
                 "eslint-comments"
-                //"sort-class-members"
+                // "sort-class-members"
             ],
             rules: {
                 "jsdoc/check-param-names": 2,
@@ -196,8 +196,8 @@ module.exports = {
                 "eslint-comments/no-duplicate-disable": 2,
                 "eslint-comments/no-unlimited-disable": 2,
                 "eslint-comments/no-unused-disable": 2,
-                "eslint-comments/no-unused-enable": 2,
-                /*"sort-class-members/sort-class-members": [
+                "eslint-comments/no-unused-enable": 2
+                /* "sort-class-members/sort-class-members": [
                     2,
                     {
                         order: [
