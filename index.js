@@ -20,7 +20,7 @@ module.exports = {
                 "security",
                 "filenames",
                 "promise",
-                "eslint-comments",
+                "eslint-comments"
                 //"sort-class-members"
             ],
             rules: {
