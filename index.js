@@ -233,7 +233,7 @@ module.exports = {
                         accessorPairPositioning: "getThenSet"
                     }
                 ]*/
-            }
+            },
             settings: {
                 jsdoc: {
                     tagNamePreference: {
