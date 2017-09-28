@@ -70,7 +70,7 @@
             "error",
             "unix"
         ],
-        "lines-around-comment": "error",
+        "lines-around-comment": "off",
         "lines-around-directive": "off",
         "max-depth": "error",
         "max-len": "error",
