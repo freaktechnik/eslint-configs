@@ -300,7 +300,11 @@ module.exports = {
                 "jsdoc/require-returns-description": 0,
                 "one-var": 0,
                 "no-magic-numbers": 0,
-                "node/no-unsupported-features": 0
+                "node/no-unsupported-features": 0,
+                "filenames/match-regex": [
+                    2,
+                    "^_?[a-z0-9-]+$"
+                ]
             },
             extends: [
                 "plugin:freaktechnik/node",
