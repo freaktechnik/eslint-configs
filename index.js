@@ -296,6 +296,7 @@ module.exports = {
                 "jsdoc/require-returns-type": 0,
                 "jsdoc/require-returns-description": 0,
                 "one-var": 0,
+                "no-magic-numbers": 0,
                 "node/no-unsupported-features": 0
             },
             extends: [
