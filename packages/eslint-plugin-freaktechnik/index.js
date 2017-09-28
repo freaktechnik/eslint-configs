@@ -95,7 +95,7 @@ module.exports = {
                 "block-spacing": 2,
                 "brace-style": [2, "stroustrup"],
                 "camelcase": 2,
-                "comma-dangle": 2
+                "comma-dangle": 2,
                 "comma-spacing": 2,
                 "comma-style": 2,
                 "computed-property-spacing": 2,
