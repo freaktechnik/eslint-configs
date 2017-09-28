@@ -4,7 +4,7 @@
   "description": "ESLint default configs of freaktechnik.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint index.js"
   },
   "keywords": [
     "eslint",
@@ -34,5 +34,8 @@
   },
   "peerDependencies": {
     "eslint": ">=4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2"
   }
 }
