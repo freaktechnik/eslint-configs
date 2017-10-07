@@ -252,7 +252,8 @@ module.exports = {
             extends: [
                 "eslint:recommended",
                 "plugin:promise/recommended",
-                "plugin:security/recommended"
+                "plugin:security/recommended",
+                "plugin:array-func/recommended"
             ]
         },
         node: {
