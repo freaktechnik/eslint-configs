@@ -4,7 +4,8 @@
         "lerna": "^2.4.0"
     },
     "scripts": {
-        "test": "eslint packages/ *.json --ext js,json"
+        "test": "eslint packages/ *.json --ext js,json",
+        "install": "lerna bootstrap"
     },
     "repository": {
         "type": "git",
