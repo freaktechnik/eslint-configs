@@ -1,11 +1,11 @@
+"use strict";
+
 module.exports = {
     parserOptions: {
         ecmaVersion: 2017,
         sourceType: "module"
     },
-    plugins: [
-        "ava"
-    ],
+    plugins: [ "ava" ],
     rules: {
         "jsdoc/check-param-names": 0,
         "jsdoc/check-tag-names": 0,

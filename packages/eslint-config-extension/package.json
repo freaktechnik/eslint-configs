@@ -1,7 +1,7 @@
 {
   "name": "@freaktechnik/eslint-config-extension",
   "version": "1.0.0",
-  "description": "Browser extension linting config freaktechnik likes",
+  "description": "Browser extension linting config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

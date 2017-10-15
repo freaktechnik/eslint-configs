@@ -1,3 +1,9 @@
 {
-    "extends": "./packages/eslint-config-node/index.js"
+    "env": {
+        "node": true
+    },
+    "rules": {
+        "no-magic-numbers": 0
+    },
+    "extends": "./packages/eslint-config-base/index.js"
 }

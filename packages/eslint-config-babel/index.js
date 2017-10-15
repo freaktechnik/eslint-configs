@@ -1,8 +1,8 @@
+"use strict";
+
 module.exports = {
     parser: "babel-eslint",
-    plugins: [
-        "babel"
-    ],
+    plugins: [ "babel" ],
     rules: {
         "new-cap": 0,
         "object-curly-spacing": 0,

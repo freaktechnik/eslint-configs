@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
     parserOptions: {
         sourceType: "module",
@@ -6,9 +8,7 @@ module.exports = {
     env: {
         commonjs: true
     },
-    plugins: [
-        "import"
-    ],
+    plugins: [ "import" ],
     settings: {
         "import/resolver": "webpack"
     },

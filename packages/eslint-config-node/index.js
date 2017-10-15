@@ -1,14 +1,14 @@
+"use strict";
+
 module.exports = {
-    env:  {
+    env: {
         node: true,
         es6: true
     },
     parserOptions: {
         ecmaVersion: 2016
     },
-    plugins: [
-        "node"
-    ],
+    plugins: [ "node" ],
     rules: {
         "no-new-require": 2,
         "no-sync": 1,

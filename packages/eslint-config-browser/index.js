@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
     env: {
         browser: true
@@ -14,7 +16,5 @@ module.exports = {
         "xss/no-location-href-assign": 2,
         "compat/compat": 2
     },
-    extends: [
-        "@freaktechnik/eslint-config-base"
-    ]
+    extends: [ "@freaktechnik/eslint-config-base" ]
 };

@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
     env: {
         es6: true
@@ -32,15 +34,27 @@ module.exports = {
         "no-console": [
             2,
             {
-                allow: [ "warn", "error" ]
+                allow: [
+                    "warn",
+                    "error"
+                ]
             }
         ],
-        "indent": ["error", 4],
+        "indent": [
+            "error",
+            4
+        ],
         "array-callback-return": 2,
         "consistent-return": 1,
-        "curly": ["error", "all"],
+        "curly": [
+            "error",
+            "all"
+        ],
         "default-case": 2,
-        "dot-location": [2, "property"],
+        "dot-location": [
+            2,
+            "property"
+        ],
         "dot-notation": 2,
         "no-caller": 2,
         "no-else-return": 2,
@@ -81,7 +95,10 @@ module.exports = {
                 minItems: 2
             }
         ],
-        "array-bracket-spacing": [2, "always"],
+        "array-bracket-spacing": [
+            2,
+            "always"
+        ],
         "array-element-newline": [
             "error",
             {
@@ -89,29 +106,38 @@ module.exports = {
             }
         ],
         "block-spacing": 2,
-        "brace-style": [2, "stroustrup"],
+        "brace-style": [
+            2,
+            "stroustrup"
+        ],
         "camelcase": 2,
         "comma-dangle": 2,
         "comma-spacing": 2,
         "comma-style": 2,
         "computed-property-spacing": 2,
-        "consistent-this": [2, "self"],
+        "consistent-this": [
+            2,
+            "self"
+        ],
         "eol-last": 2,
         "func-call-spacing": 2,
         "func-name-matching": 2,
         "key-spacing": 2,
-        "keyword-spacing": [2, {
-            overrides: {
-                if: { "after": false },
-                for: { "after": false },
-                while: { "after": false },
-                catch: { "after": false },
-                function: { "after": false },
-                super: { "after": false },
-                switch: { "after": false },
-                with: { "after": false }
+        "keyword-spacing": [
+            2,
+            {
+                overrides: {
+                    if: { "after": false },
+                    for: { "after": false },
+                    while: { "after": false },
+                    catch: { "after": false },
+                    function: { "after": false },
+                    super: { "after": false },
+                    switch: { "after": false },
+                    with: { "after": false }
+                }
             }
-        }],
+        ],
         "linebreak-style": 2,
         "new-cap": 2,
         "new-parens": 2,
@@ -130,7 +156,10 @@ module.exports = {
                 consistent: true
             }
         ],
-        "object-curly-spacing": [2, "always"],
+        "object-curly-spacing": [
+            2,
+            "always"
+        ],
         "object-property-newline": 2,
         "one-var-declaration-per-line": 2,
         "one-var": 1,
@@ -142,18 +171,24 @@ module.exports = {
         "semi-spacing": 2,
         "semi": 2,
         "space-before-blocks": 2,
-        "space-before-function-paren": [2, {
-            anonymous: "never",
-            named: "never",
-            asyncArrow: "always"
-        }],
+        "space-before-function-paren": [
+            2,
+            {
+                anonymous: "never",
+                named: "never",
+                asyncArrow: "always"
+            }
+        ],
         "no-alert": 2,
         "space-infix-ops": 2,
         "space-unary-ops": 2,
         "arrow-body-style": 1,
         "arrow-parens": 2,
         "arrow-spacing": 2,
-        "generator-star-spacing": [2, "after"],
+        "generator-star-spacing": [
+            2,
+            "after"
+        ],
         "no-var": 2,
         "object-shorthand": 1,
         "prefer-arrow-callback": 1,
@@ -162,7 +197,10 @@ module.exports = {
         "strict": 1,
         "prefer-promise-reject-errors": 1,
         "no-throw-literal": 1,
-        "semi-style": [2, "last"],
+        "semi-style": [
+            2,
+            "last"
+        ],
         "switch-colon-spacing": 2,
         "template-tag-spacing": 2,
         "unicode-bom": 2,
@@ -210,36 +248,28 @@ module.exports = {
                     "[conventional-private-methods]"
                 ],
                 groups: {
-                    "static-accessor-pairs": [
-                        {
-                            type: "method",
-                            accessorPair: true,
-                            static: true
-                        }
-                    ],
-                    "static-getters": [
-                        {
-                            type: "method",
-                            kind: "get",
-                            static: true,
-                            accessorPair: false
-                        }
-                    ],
-                    "conventional-private-getters": [
-                        {
-                            type: "method",
-                            kind: "get",
-                            accessorPair: false,
-                            name: "/_.+/"
-                        }
-                    ],
-                    "conventional-private-accessor-pairs": [
-                        {
-                            type: "method",
-                            accessorPair: true,
-                            name: "/_.+/"
-                        }
-                    ]
+                    "static-accessor-pairs": [ {
+                        type: "method",
+                        accessorPair: true,
+                        static: true
+                    } ],
+                    "static-getters": [ {
+                        type: "method",
+                        kind: "get",
+                        static: true,
+                        accessorPair: false
+                    } ],
+                    "conventional-private-getters": [ {
+                        type: "method",
+                        kind: "get",
+                        accessorPair: false,
+                        name: "/_.+/"
+                    } ],
+                    "conventional-private-accessor-pairs": [ {
+                        type: "method",
+                        accessorPair: true,
+                        name: "/_.+/"
+                    } ]
                 },
                 accessorPairPositioning: "getThenSet"
             }
@@ -254,9 +284,7 @@ module.exports = {
                 constant: "const"
             },
             additionalTagNames: {
-                customTags: [
-                    "async"
-                ]
+                customTags: [ "async" ]
             }
         }
     },

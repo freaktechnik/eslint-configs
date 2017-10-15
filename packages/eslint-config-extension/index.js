@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
     env: {
         webextensions: true
@@ -8,7 +10,5 @@ module.exports = {
     rules: {
         "strict": 0
     },
-    extends: [
-        "@freaktechnik/eslint-config-browser"
-    ]
+    extends: [ "@freaktechnik/eslint-config-browser" ]
 };

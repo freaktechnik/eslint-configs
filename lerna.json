@@ -3,5 +3,10 @@
   "packages": [
     "packages/*"
   ],
+  "commands": {
+    "bootstrap": {
+      "hoist": "**"
+    }
+  },
   "version": "0.0.0"
 }
