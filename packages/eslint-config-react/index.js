@@ -5,6 +5,7 @@ module.exports = {
         "no-fallthrough": 0,
         "one-var": 0
     },
+    plugins: [ "jsx-a11y" ],
     extends: [
         "@freaktechnik/eslint-config-browser",
         "@freaktechnik/eslint-config-webpack",
