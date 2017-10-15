@@ -213,6 +213,8 @@ module.exports = {
                             "[getters]",
                             "[accessor-pairs]",
                             "[conventional-private-properties]",
+                            "[conventional-private-getters]",
+                            "[conventional-private-accessor-pairs]",
                             "[methods]",
                             "[conventional-private-methods]"
                         ],
@@ -230,6 +232,21 @@ module.exports = {
                                     kind: "get",
                                     static: true,
                                     accessorPair: false
+                                }
+                            ],
+                            "conventional-private-getters": [
+                                {
+                                    type: "method",
+                                    kind: "get",
+                                    static: false,
+                                    accessorPair: false
+                                }
+                            ],
+                            "conventional-private-accessor-pairs": [
+                                {
+                                    type: "method",
+                                    static: false,
+                                    accessorPair: true
                                 }
                             ]
                         },
