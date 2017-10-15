@@ -1,5 +1,20 @@
 {
-	"devDependencies": {
-		"lerna": "^2.4.0"
-	}
+    "devDependencies": {
+        "eslint": "^4.9.0",
+        "lerna": "^2.4.0"
+    },
+    "scripts": {
+        "test": "eslint packages/ *.json --ext js,json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/freaktechnik/eslint-configs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/freaktechnik/eslint-configs/issues"
+    },
+    "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
+    "author": "Martin Giger (https://humanoids.be)",
+    "license": "MIT",
+    "private": true
 }

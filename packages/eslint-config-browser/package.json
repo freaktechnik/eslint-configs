@@ -1,0 +1,31 @@
+{
+  "name": "@freaktechnik/eslint-config-browser",
+  "version": "1.0.0",
+  "description": "Eslint config to lint js for the browser freaktechnik likes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freaktechnik/eslint-configs.git"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint"
+  ],
+  "author": "Martin Giger (https://humanoids.be)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freaktechnik/eslint-configs/issues"
+  },
+  "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
+  "peerDependencies": {
+    "eslint": ">=4.0.0"
+  },
+  "dependencies": {
+    "@freaktechnik/eslint-config-base": "^1.0.0",
+    "eslint-plugin-compat": "^2.0.1",
+    "eslint-plugin-xss": "^0.1.8"
+  }
+}

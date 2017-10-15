@@ -1,0 +1,30 @@
+{
+  "name": "@freaktechnik/eslint-config-test",
+  "version": "1.0.0",
+  "description": "Ava specific eslint config for tests freaktechnik likes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freaktechnik/eslint-configs.git"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint"
+  ],
+  "author": "Martin Giger (https://humanoids.be)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freaktechnik/eslint-configs/issues"
+  },
+  "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
+  "dependencies": {
+    "@freaktechnik/eslint-config-node": "^1.0.0",
+    "eslint-plugin-ava": "^4.2.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.0.0"
+  }
+}
