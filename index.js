@@ -238,7 +238,6 @@ module.exports = {
                                 {
                                     type: "method",
                                     kind: "get",
-                                    static: false,
                                     accessorPair: false,
                                     name: "/_.+/"
                                 }
@@ -246,7 +245,6 @@ module.exports = {
                             "conventional-private-accessor-pairs": [
                                 {
                                     type: "method",
-                                    static: false,
                                     accessorPair: true,
                                     name: "/_.+/"
                                 }
