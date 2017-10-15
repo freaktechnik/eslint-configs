@@ -20,8 +20,9 @@ module.exports = {
                 "security",
                 "filenames",
                 "promise",
-                "eslint-comments"
-                // "sort-class-members"
+                "eslint-comments",
+                "sort-class-members",
+                "typelint"
             ],
             rules: {
                 "jsdoc/check-param-names": 2,
@@ -198,8 +199,8 @@ module.exports = {
                 "eslint-comments/no-unused-disable": 2,
                 "eslint-comments/no-unused-enable": 2,
                 "promise/always-return": 1,
-                "security/detect-non-literal-fs-filename": 0
-                /* "sort-class-members/sort-class-members": [
+                "security/detect-non-literal-fs-filename": 0,
+                "sort-class-members/sort-class-members": [
                     2,
                     {
                         order: [
@@ -234,7 +235,9 @@ module.exports = {
                         },
                         accessorPairPositioning: "getThenSet"
                     }
-                ]*/
+                ],
+                "securtity/detect-object-injection": 0,
+                "typelint/typelint": 2
             },
             settings: {
                 jsdoc: {
@@ -320,11 +323,13 @@ module.exports = {
                 ecmaVersion: 2017
             },
             plugins: [
-                "xss"
+                "xss",
+                "compat"
             ],
             rules: {
                 "xss/no-mixed-html": 2,
-                "xss/no-location-href-assign": 2
+                "xss/no-location-href-assign": 2,
+                "compat/compat": 2
             },
             extends: [
                 "plugin:freaktechnik/base"
