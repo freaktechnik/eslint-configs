@@ -236,7 +236,7 @@ module.exports = {
                         accessorPairPositioning: "getThenSet"
                     }
                 ],
-                "securtity/detect-object-injection": 0,
+                "security/detect-object-injection": 0,
                 "typelint/typelint": 2
             },
             settings: {
