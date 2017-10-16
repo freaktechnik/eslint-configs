@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-react",
-  "version": "5.1.4",
+  "version": "5.1.5",
   "description": "React and JSX linting config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
