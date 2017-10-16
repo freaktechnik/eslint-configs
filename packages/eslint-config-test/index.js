@@ -24,7 +24,8 @@ module.exports = {
         "filenames/match-regex": [
             2,
             "^_?[a-z0-9-]+$"
-        ]
+        ],
+        "security/detect-non-literal-fs-filename": 0
     },
     extends: [
         "@freaktechnik/eslint-config-node",
