@@ -28,7 +28,9 @@ module.exports = {
         "security/detect-non-literal-fs-filename": 0
     },
     extends: [
-        "@freaktechnik/eslint-config-node",
-        "plugin:ava/recommended"
+        "plugin:ava/recommended",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "@freaktechnik/eslint-config-node"
     ]
 };
