@@ -27,6 +27,9 @@ module.exports = {
         ],
         "security/detect-non-literal-fs-filename": 0
     },
+    settings: {
+        "import/resolver": "node"
+    },
     extends: [
         "plugin:ava/recommended",
         "plugin:import/errors",
