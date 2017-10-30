@@ -222,11 +222,6 @@ module.exports = {
             2,
             "^[a-z0-9-]+$"
         ],
-        "eslint-comments/disable-enable-pair": 2,
-        "eslint-comments/no-duplicate-disable": 2,
-        "eslint-comments/no-unlimited-disable": 2,
-        "eslint-comments/no-unused-disable": 2,
-        "eslint-comments/no-unused-enable": 2,
         "promise/always-return": 1,
         "security/detect-non-literal-fs-filename": 0,
         "sort-class-members/sort-class-members": [
@@ -292,6 +287,7 @@ module.exports = {
         "eslint:recommended",
         "plugin:promise/recommended",
         "plugin:security/recommended",
-        "plugin:array-func/recommended"
+        "plugin:array-func/recommended",
+        "plugin:eslint-comments/recommended"
     ]
 };
