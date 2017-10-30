@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-freaktechnik",
-  "version": "5.2.1",
+  "version": "6.0.0",
   "description": "ESLint default configs of freaktechnik.",
   "main": "index.js",
   "keywords": [
@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
-    "@freaktechnik/eslint-config-base": "^5.2.1",
-    "@freaktechnik/eslint-config-browser": "^5.2.1",
-    "@freaktechnik/eslint-config-extension": "^5.2.1",
-    "@freaktechnik/eslint-config-node": "^5.2.1",
-    "@freaktechnik/eslint-config-test": "^5.2.1"
+    "@freaktechnik/eslint-config-base": "^6.0.0",
+    "@freaktechnik/eslint-config-browser": "^6.0.0",
+    "@freaktechnik/eslint-config-extension": "^6.0.0",
+    "@freaktechnik/eslint-config-node": "^6.0.0",
+    "@freaktechnik/eslint-config-test": "^6.0.0"
   },
   "peerDependencies": {
     "eslint": ">=4.0.0"
