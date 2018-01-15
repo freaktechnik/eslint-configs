@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-extension",
-  "version": "6.0.0",
+  "version": "6.1.0",
   "description": "Browser extension linting config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
-    "@freaktechnik/eslint-config-browser": "^6.0.0"
+    "@freaktechnik/eslint-config-browser": "^6.1.0"
   },
   "peerDependencies": {
     "eslint": ">=4.0.0"
