@@ -15,7 +15,8 @@ module.exports = {
         "promise",
         "eslint-comments",
         "sort-class-members",
-        "typelint"
+        "typelint",
+        "unicorn"
     ],
     rules: {
         "jsdoc/check-param-names": 2,
@@ -270,7 +271,17 @@ module.exports = {
             }
         ],
         "security/detect-object-injection": 0,
-        "typelint/typelint": 2
+        "typelint/typelint": 2,
+        "unicorn/throw-new-error": "error",
+        "unicorn/number-literal-case": "error",
+        "unicorn/escape-case": "error",
+        "unicorn/no-array-instanceof": "error",
+        "unicorn/no-new-buffer": "error",
+        "unicorn/no-hex-escape": "error",
+        "unicorn/prefer-starts-ends-with": "error",
+        "unicorn/import-index": "warn",
+        "unicorn/new-for-builtins": "error",
+        "unicorn/regex-shorthand": "warn"
     },
     settings: {
         jsdoc: {
