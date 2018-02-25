@@ -25,7 +25,8 @@ module.exports = {
             2,
             "^_?[a-z0-9-]+$"
         ],
-        "security/detect-non-literal-fs-filename": 0
+        "security/detect-non-literal-fs-filename": 0,
+        "tree-shaking/no-side-effects-in-initialization": 0
     },
     settings: {
         "import/resolver": "node"

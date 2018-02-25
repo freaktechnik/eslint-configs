@@ -8,7 +8,8 @@ module.exports = {
         ecmaVersion: 2017
     },
     rules: {
-        "strict": 0
+        "strict": 0,
+        "tree-shaking/no-side-effects-in-initialization": 0
     },
     extends: [ "@freaktechnik/eslint-config-browser" ]
 };
