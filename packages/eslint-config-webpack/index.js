@@ -9,14 +9,14 @@ module.exports = {
         commonjs: true
     },
     plugins: [
-      "import",
-      "tree-shaking"
+        "import",
+        "tree-shaking"
     ],
     settings: {
         "import/resolver": "webpack"
     },
     rules: {
-      "tree-shaking/no-side-effects-in-initialization": "error"
+        "tree-shaking/no-side-effects-in-initialization": "error"
     },
     extends: [
         "plugin:import/errors",
