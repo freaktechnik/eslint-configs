@@ -16,7 +16,8 @@ module.exports = {
         "eslint-comments",
         "sort-class-members",
         "typelint",
-        "unicorn"
+        "unicorn",
+        "tree-shaking"
     ],
     rules: {
         "jsdoc/check-param-names": 2,
@@ -281,7 +282,8 @@ module.exports = {
         "unicorn/prefer-starts-ends-with": "error",
         "unicorn/import-index": "warn",
         "unicorn/new-for-builtins": "error",
-        "unicorn/regex-shorthand": "warn"
+        "unicorn/regex-shorthand": "warn",
+        "tree-shaking/no-side-effects-in-inizialization": "warn"
     },
     settings: {
         jsdoc: {
