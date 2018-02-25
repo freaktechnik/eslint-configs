@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="6.3.4"></a>
+## [6.3.4](https://github.com/freaktechnik/eslint-configs/compare/v6.3.3...v6.3.4) (2018-02-25)
+
+
+
+
+**Note:** Version bump only for package @freaktechnik/eslint-config-react
+
 <a name="6.3.3"></a>
 ## [6.3.3](https://github.com/freaktechnik/eslint-configs/compare/v6.3.2...v6.3.3) (2018-02-25)
 
