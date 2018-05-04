@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-node",
-  "version": "6.3.1",
+  "version": "6.3.5",
   "description": "Node specific eslint config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "eslint": ">=4.0.0"
   },
   "dependencies": {
-    "@freaktechnik/eslint-config-base": "^6.3.1",
+    "@freaktechnik/eslint-config-base": "^6.3.5",
     "eslint-plugin-node": "^5.2.0"
   }
 }

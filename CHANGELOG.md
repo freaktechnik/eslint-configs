@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="6.3.5"></a>
+## [6.3.5](https://github.com/freaktechnik/eslint-configs/compare/v6.3.4...v6.3.5) (2018-05-04)
+
+
+### Bug Fixes
+
+* require latest plugin version for node 10 compat ([68bcdf8](https://github.com/freaktechnik/eslint-configs/commit/68bcdf8))
+
+
+
+
 <a name="6.3.4"></a>
 ## [6.3.4](https://github.com/freaktechnik/eslint-configs/compare/v6.3.3...v6.3.4) (2018-02-25)
 
