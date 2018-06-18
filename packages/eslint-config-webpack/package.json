@@ -24,7 +24,7 @@
     "eslint": ">=4.0.0"
   },
   "dependencies": {
-    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-import-resolver-webpack": "^0.10.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-tree-shaking": "^1.7.2"
   }
