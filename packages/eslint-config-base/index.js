@@ -283,6 +283,7 @@ module.exports = {
         "unicorn/import-index": "warn",
         "unicorn/new-for-builtins": "error",
         "unicorn/regex-shorthand": "warn",
+        "unicorn/error-message": "warn",
         "tree-shaking/no-side-effects-in-initialization": "warn"
     },
     settings: {

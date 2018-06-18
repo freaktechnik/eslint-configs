@@ -15,7 +15,8 @@ module.exports = {
         "xss/no-mixed-html": 2,
         "xss/no-location-href-assign": 2,
         "compat/compat": 2,
-        "tree-shaking/no-side-effects-in-initialization": 0
+        "tree-shaking/no-side-effects-in-initialization": 0,
+        "unicorn/prefer-add-event-listener": "error"
     },
     extends: [ "@freaktechnik/eslint-config-base" ]
 };
