@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="6.4.3"></a>
+## [6.4.3](https://github.com/freaktechnik/eslint-configs/compare/v6.4.2...v6.4.3) (2018-07-15)
+
+
+### Bug Fixes
+
+* **package:** update eslint-plugin-ava to version 5.0.0 ([289a428](https://github.com/freaktechnik/eslint-configs/commit/289a428))
+
+
+
+
 <a name="6.4.2"></a>
 ## [6.4.2](https://github.com/freaktechnik/eslint-configs/compare/v6.4.1...v6.4.2) (2018-06-24)
 
