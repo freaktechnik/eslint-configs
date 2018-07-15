@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="6.4.4"></a>
+## [6.4.4](https://github.com/freaktechnik/eslint-configs/compare/v6.4.3...v6.4.4) (2018-07-15)
+
+
+### Bug Fixes
+
+* remove typelint because it's ancient ([ffb0559](https://github.com/freaktechnik/eslint-configs/commit/ffb0559))
+
+
+
+
 <a name="6.4.3"></a>
 ## [6.4.3](https://github.com/freaktechnik/eslint-configs/compare/v6.4.2...v6.4.3) (2018-07-15)
 
