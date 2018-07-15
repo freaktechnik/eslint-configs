@@ -15,7 +15,6 @@ module.exports = {
         "promise",
         "eslint-comments",
         "sort-class-members",
-        "typelint",
         "unicorn",
         "tree-shaking"
     ],
@@ -272,7 +271,6 @@ module.exports = {
             }
         ],
         "security/detect-object-injection": 0,
-        "typelint/typelint": 2,
         "unicorn/throw-new-error": "error",
         "unicorn/number-literal-case": "error",
         "unicorn/escape-case": "error",
