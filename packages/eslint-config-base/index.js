@@ -219,6 +219,9 @@ module.exports = {
         "rest-spread-spacing": 2,
         "template-curly-spacing": 2,
         "yield-star-spacing": 2,
+        "require-atomic-updates": 2,
+        "no-async-promise-executor": 2,
+        "no-misleading-character-class": 2,
         "filenames/match-regex": [
             2,
             "^[a-z0-9-]+$"
