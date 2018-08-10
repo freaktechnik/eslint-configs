@@ -9,11 +9,11 @@ Configurations are published under the @freaktechnik namespace. A consolidated v
 
 ## Configurations
 
- - basic
- - node
- - test
- - browser
- - extension
- - webpack
- - babel
- - react
+- basic
+- node
+- test
+- browser
+- extension
+- webpack
+- babel
+- react
