@@ -3,6 +3,6 @@ language: node_js
 node_js: stable
 before_install:
   - npm i -g greenkeeper-lockfile
-install: case $TRAVIS_BRANCH in greenkeeper*) npm i;; *) npm ci;; esac;
+install: case $TRAVIS_BRANCH in greenkeeper*) npm i && lerna bootstrap --no-ci;; *) npm ci && lerna bootstrap --ci;; esac;
 before_script: greenkeeper-lockfile-update
 after_script: greenkeeeper-lockfile-upload

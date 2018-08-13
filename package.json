@@ -2,14 +2,13 @@
     "devDependencies": {
         "eclint": "^2.8.0",
         "eslint": "^5.3.0",
-        "lerna": "^3.0.1"
+        "lerna": "^3.0.3"
     },
     "scripts": {
         "lint:js": "eslint packages/ *.json --ext js,json",
         "lint:ec": "eclint check $(git ls-files)",
         "lint": "npm run lint:js && npm run lint:ec",
-        "test": "npm run lint",
-        "install": "lerna bootstrap"
+        "test": "npm run lint"
     },
     "repository": {
         "type": "git",
