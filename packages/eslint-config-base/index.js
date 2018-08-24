@@ -285,6 +285,7 @@ module.exports = {
         "unicorn/new-for-builtins": "error",
         "unicorn/regex-shorthand": "warn",
         "unicorn/error-message": "warn",
+        "unicorn/prefer-exponentiation-operator": "warn",
         "tree-shaking/no-side-effects-in-initialization": "warn"
     },
     settings: {
