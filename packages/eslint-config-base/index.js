@@ -15,8 +15,7 @@ module.exports = {
         "promise",
         "eslint-comments",
         "sort-class-members",
-        "unicorn",
-        "tree-shaking"
+        "unicorn"
     ],
     rules: {
         "jsdoc/check-param-names": 2,
@@ -286,7 +285,6 @@ module.exports = {
         "unicorn/regex-shorthand": "warn",
         "unicorn/error-message": "warn",
         "unicorn/prefer-exponentiation-operator": "warn",
-        "tree-shaking/no-side-effects-in-initialization": "warn"
     },
     settings: {
         jsdoc: {
