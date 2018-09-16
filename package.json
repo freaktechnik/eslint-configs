@@ -8,7 +8,8 @@
         "lint:js": "eslint packages/ *.json --ext js,json",
         "lint:ec": "eclint check $(git ls-files)",
         "lint": "npm run lint:js && npm run lint:ec",
-        "test": "npm run lint"
+        "test": "npm run lint",
+        "install": "lerna bootstrap"
     },
     "repository": {
         "type": "git",
