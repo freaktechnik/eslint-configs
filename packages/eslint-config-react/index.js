@@ -20,7 +20,10 @@ module.exports = {
         "react/no-unused-state": "error",
         "react/no-will-update-set-state": "error",
         "react/jsx-no-bind": "warn",
-        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent": [
+            "error",
+            4
+        ],
         "react/jsx-equals-spacing": "error",
         "react/jsx-curly-spacing": [
             "warn",
