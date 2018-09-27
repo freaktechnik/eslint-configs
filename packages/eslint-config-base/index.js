@@ -9,7 +9,7 @@ module.exports = {
     },
     plugins: [
         "jsdoc",
-        "json",
+        "json-light",
         "security",
         "filenames",
         "promise",
