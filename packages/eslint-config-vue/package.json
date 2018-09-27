@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vue",
-  "version": "1.0.0",
+  "version": "6.5.0",
   "description": "Vue specific eslint config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
-    "@freaktechnik/eslint-config-browser": "^6.4.4",
-    "@freaktechnik/eslint-config-webpack": "^6.4.2",
+    "@freaktechnik/eslint-config-browser": "^6.5.0",
+    "@freaktechnik/eslint-config-webpack": "^6.5.0",
     "eslint-plugin-vue": "^4.7.1"
   }
 }

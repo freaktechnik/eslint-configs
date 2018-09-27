@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-react",
-  "version": "6.4.4",
+  "version": "6.5.0",
   "description": "React and JSX linting config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
-    "@freaktechnik/eslint-config-babel": "^6.4.2",
-    "@freaktechnik/eslint-config-browser": "^6.4.4",
-    "@freaktechnik/eslint-config-webpack": "^6.4.2",
+    "@freaktechnik/eslint-config-babel": "^6.5.0",
+    "@freaktechnik/eslint-config-browser": "^6.5.0",
+    "@freaktechnik/eslint-config-webpack": "^6.5.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.11.1"
   }

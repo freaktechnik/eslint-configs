@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="6.5.0"></a>
+# [6.5.0](https://github.com/freaktechnik/eslint-configs/compare/v6.4.4...v6.5.0) (2018-09-27)
+
+
+### Bug Fixes
+
+* add lock files ([bd51077](https://github.com/freaktechnik/eslint-configs/commit/bd51077))
+* remove lerna bootstrap from install script and instead do that conditionally on travis too ([d90adea](https://github.com/freaktechnik/eslint-configs/commit/d90adea))
+
+
+
+
+
 <a name="6.4.2"></a>
 ## [6.4.2](https://github.com/freaktechnik/eslint-configs/compare/v6.4.1...v6.4.2) (2018-06-24)
 

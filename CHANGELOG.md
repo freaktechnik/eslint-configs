@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="6.5.0"></a>
+# [6.5.0](https://github.com/freaktechnik/eslint-configs/compare/v6.4.4...v6.5.0) (2018-09-27)
+
+
+### Bug Fixes
+
+* **package:** update babel-eslint to version 10.0.1 ([65d2c0e](https://github.com/freaktechnik/eslint-configs/commit/65d2c0e)), closes [#33](https://github.com/freaktechnik/eslint-configs/issues/33)
+* **package:** update eslint-plugin-node to version 7.0.0 ([837a667](https://github.com/freaktechnik/eslint-configs/commit/837a667))
+* **package:** update eslint-plugin-promise to version 4.0.0 ([0dd0413](https://github.com/freaktechnik/eslint-configs/commit/0dd0413))
+* **package:** update eslint-plugin-unicorn to version 5.0.0 ([c3daad6](https://github.com/freaktechnik/eslint-configs/commit/c3daad6))
+* add lock files ([bd51077](https://github.com/freaktechnik/eslint-configs/commit/bd51077))
+* re-add lerna to install script* ([ef447ec](https://github.com/freaktechnik/eslint-configs/commit/ef447ec))
+* remove lerna bootstrap from install script and instead do that conditionally on travis too ([d90adea](https://github.com/freaktechnik/eslint-configs/commit/d90adea))
+* **package:** update eslint-plugin-unicorn to version 6.0.0 ([eafb8ea](https://github.com/freaktechnik/eslint-configs/commit/eafb8ea))
+* remove tree shaking bs and update babel ([c697b47](https://github.com/freaktechnik/eslint-configs/commit/c697b47))
+* security issue with lodash in test config ([f2ebd5b](https://github.com/freaktechnik/eslint-configs/commit/f2ebd5b))
+* things ([7e3514d](https://github.com/freaktechnik/eslint-configs/commit/7e3514d))
+* update some deps and use a nicer json linter ([57cc53e](https://github.com/freaktechnik/eslint-configs/commit/57cc53e))
+
+
+### Features
+
+* add new rules for eslint 5.3 ([2373fc2](https://github.com/freaktechnik/eslint-configs/commit/2373fc2))
+* add new unicorn rule ([f6e3742](https://github.com/freaktechnik/eslint-configs/commit/f6e3742))
+* add vue config ([eb15bc4](https://github.com/freaktechnik/eslint-configs/commit/eb15bc4))
+
+
+
+
+
 <a name="6.4.4"></a>
 ## [6.4.4](https://github.com/freaktechnik/eslint-configs/compare/v6.4.3...v6.4.4) (2018-07-15)
 
