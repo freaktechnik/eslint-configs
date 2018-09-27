@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-vue",
+  "name": "@freaktechnik/eslint-config-vue",
   "version": "6.5.0",
   "description": "Vue specific eslint config freaktechnik likes.",
   "main": "index.js",
