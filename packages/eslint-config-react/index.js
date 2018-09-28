@@ -12,7 +12,7 @@ module.exports = {
         "react/no-typos": "warn",
         "react/no-this-in-sfc": "error",
         "react/void-dom-elements-no-children": "error",
-        "react/self-closing-prop": "error",
+        "react/self-closing-comp": "error",
         "react/prefer-stateless-function": "warn",
         "react/prefer-es6-class": "error",
         "react/no-unsafe": "error",
