@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="6.5.3"></a>
+## [6.5.3](https://github.com/freaktechnik/eslint-configs/compare/v6.5.2...v6.5.3) (2018-09-28)
+
+
+### Bug Fixes
+
+* use proper react self closing rule ([7874b6e](https://github.com/freaktechnik/eslint-configs/commit/7874b6e))
+
+
+
+
+
 <a name="6.5.0"></a>
 # [6.5.0](https://github.com/freaktechnik/eslint-configs/compare/v6.4.4...v6.5.0) (2018-09-27)
 
