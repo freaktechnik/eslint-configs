@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="6.5.2"></a>
+## [6.5.2](https://github.com/freaktechnik/eslint-configs/compare/v6.5.1...v6.5.2) (2018-09-28)
+
+
+### Bug Fixes
+
+* also allow async functions in tests ([feab03f](https://github.com/freaktechnik/eslint-configs/commit/feab03f))
+* array formatting ([cf415ed](https://github.com/freaktechnik/eslint-configs/commit/cf415ed))
+
+
+
+
+
 <a name="6.5.1"></a>
 ## [6.5.1](https://github.com/freaktechnik/eslint-configs/compare/v6.5.0...v6.5.1) (2018-09-27)
 
