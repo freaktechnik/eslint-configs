@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.5.4](https://github.com/freaktechnik/eslint-configs/compare/v6.5.3...v6.5.4) (2018-10-16)
+
+
+### Bug Fixes
+
+* make vue config work ([f545a11](https://github.com/freaktechnik/eslint-configs/commit/f545a11))
+
+
+
+
+
 <a name="6.5.0"></a>
 # [6.5.0](https://github.com/freaktechnik/eslint-configs/compare/v6.4.4...v6.5.0) (2018-09-27)
 

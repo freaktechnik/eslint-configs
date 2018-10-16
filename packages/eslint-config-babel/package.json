@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-babel",
-  "version": "6.5.0",
+  "version": "6.5.4",
   "description": "Config for usage with babeld projects freaktechnik likes.",
   "main": "index.js",
   "scripts": {
