@@ -1,8 +1,8 @@
 {
     "devDependencies": {
         "eclint": "^2.8.0",
-        "eslint": "^5.6.0",
-        "lerna": "^3.4.0"
+        "eslint": "^5.7.0",
+        "lerna": "^3.4.3"
     },
     "scripts": {
         "lint:js": "eslint packages/ *.json --ext js,json",
