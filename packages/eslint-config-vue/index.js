@@ -9,7 +9,7 @@ module.exports = {
         "filenames/match-regex": [
             2,
             "^[A-Za-z0-9-]+$"
-        ],
+        ]
     },
     extends: [
         "@freaktechnik/eslint-config-browser",
