@@ -5,7 +5,8 @@
   ],
   "command": {
     "bootstrap": {
-      "hoist": "**"
+      "hoist": "**",
+      "npmClientArgs": [ "--no-package-lock" ]
     },
     "publish": {
       "conventionalCommits": true
