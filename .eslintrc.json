@@ -5,5 +5,5 @@
     "rules": {
         "no-magic-numbers": 0
     },
-    "extends": "./packages/eslint-config-base/index.js"
+    "extends": "@freaktechnik/eslint-config-base"
 }

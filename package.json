@@ -1,5 +1,6 @@
 {
     "devDependencies": {
+        "@freaktechnik/eslint-config-base": "^6.5.4",
         "eclint": "^2.8.1",
         "eslint": "^5.9.0",
         "lerna": "^3.5.1"
