@@ -4,10 +4,6 @@
     "packages/*"
   ],
   "command": {
-    "bootstrap": {
-      "hoist": "**",
-      "npmClientArgs": [ "--no-package-lock" ]
-    },
     "publish": {
       "conventionalCommits": true
     }
