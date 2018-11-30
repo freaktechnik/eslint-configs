@@ -29,7 +29,6 @@ module.exports = {
         "jsdoc/require-param-description": 1,
         "jsdoc/require-returns-type": 1,
         "jsdoc/require-returns-description": 0,
-        "valid-jsdoc": 1,
         "block-scoped-var": 2,
         "no-console": [
             2,
