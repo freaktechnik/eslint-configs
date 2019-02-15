@@ -8,7 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freaktechnik/eslint-configs.git"
+    "url": "git+https://github.com/freaktechnik/eslint-configs.git",
+    "directory": "packages/eslint-config-extension"
   },
   "keywords": [
     "eslintconfig",
