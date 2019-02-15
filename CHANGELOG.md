@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.6.0](https://github.com/freaktechnik/eslint-configs/compare/v6.5.4...v6.6.0) (2019-02-15)
+
+
+### Bug Fixes
+
+* comma dangle ([b1c34e4](https://github.com/freaktechnik/eslint-configs/commit/b1c34e4))
+
+
+### Features
+
+* add some new rules and update stuff ([3aaebba](https://github.com/freaktechnik/eslint-configs/commit/3aaebba))
+
+
+
+
+
 ## [6.5.4](https://github.com/freaktechnik/eslint-configs/compare/v6.5.3...v6.5.4) (2018-10-16)
 
 
