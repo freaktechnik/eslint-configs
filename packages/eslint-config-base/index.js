@@ -284,7 +284,7 @@ module.exports = {
         "unicorn/regex-shorthand": "warn",
         "unicorn/error-message": "warn",
         "unicorn/prefer-exponentiation-operator": "warn",
-        "unicron/no-console-spaces": "warn"
+        "unicorn/no-console-spaces": "warn"
     },
     settings: {
         jsdoc: {
