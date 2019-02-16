@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.6.2](https://github.com/freaktechnik/eslint-configs/compare/v6.6.1...v6.6.2) (2019-02-16)
+
+
+### Bug Fixes
+
+* upgrade dependencies ([f65b6b7](https://github.com/freaktechnik/eslint-configs/commit/f65b6b7))
+
+
+
+
+
 ## [6.6.1](https://github.com/freaktechnik/eslint-configs/compare/v6.6.0...v6.6.1) (2019-02-16)
 
 
