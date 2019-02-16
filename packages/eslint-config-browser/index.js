@@ -17,7 +17,7 @@ module.exports = {
         "compat/compat": 2,
         "tree-shaking/no-side-effects-in-initialization": 0,
         "unicorn/prefer-add-event-listener": "error",
-        "unicorn/prefer-node-append": "warning"
+        "unicorn/prefer-node-append": "warn"
     },
     extends: [ "@freaktechnik/eslint-config-base" ]
 };
