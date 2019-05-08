@@ -1,10 +1,10 @@
 {
     "name": "eslint-configs-freaktechnik",
     "devDependencies": {
-        "@freaktechnik/eslint-config-base": "^6.5.4",
+        "@freaktechnik/eslint-config-base": "^6.6.2",
         "eclint": "^2.8.1",
-        "eslint": "^5.9.0",
-        "lerna": "^3.5.1"
+        "eslint": "^5.16.0",
+        "lerna": "^3.13.4"
     },
     "scripts": {
         "lint:js": "eslint packages/ *.json --ext js,json",
