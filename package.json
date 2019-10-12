@@ -3,8 +3,8 @@
     "devDependencies": {
         "@freaktechnik/eslint-config-base": "^6.6.2",
         "eclint": "^2.8.1",
-        "eslint": "^6.0.1",
-        "lerna": "^3.13.4"
+        "eslint": "^6.5.1",
+        "lerna": "^3.17.0"
     },
     "scripts": {
         "lint:js": "eslint packages/ *.json --ext js,json",

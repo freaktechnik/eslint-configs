@@ -220,6 +220,7 @@ module.exports = {
         "require-atomic-updates": 2,
         "no-async-promise-executor": 2,
         "no-misleading-character-class": 2,
+        "no-prototype-builtins": 0,
         "filenames/match-regex": [
             2,
             "^[a-z0-9-]+$"
@@ -286,7 +287,8 @@ module.exports = {
         "unicorn/prefer-exponentiation-operator": "warn",
         "unicorn/no-console-spaces": "warn",
         "unicorn/no-for-loop": "error",
-        "unicorn/prefer-includes": "error"
+        "unicorn/prefer-includes": "error",
+        "unicorn/expiring-todo-comments": "warn"
     },
     settings: {
         jsdoc: {
