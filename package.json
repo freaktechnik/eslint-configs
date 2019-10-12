@@ -1,7 +1,7 @@
 {
     "name": "eslint-configs-freaktechnik",
     "devDependencies": {
-        "@freaktechnik/eslint-config-base": "^6.6.2",
+        "@freaktechnik/eslint-config-base": "^7.0.0",
         "eclint": "^2.8.1",
         "eslint": "^6.5.1",
         "lerna": "^3.17.0"
