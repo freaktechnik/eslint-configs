@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.0.0](https://github.com/freaktechnik/eslint-configs/compare/v6.6.3...v7.0.0) (2019-10-12)
+
+
+### Features
+
+* add new unicorn rules ([c324481](https://github.com/freaktechnik/eslint-configs/commit/c3244819bcaec43aa72d8888417454a3c46c743f))
+
+
+
+
+
 ## [6.6.3](https://github.com/freaktechnik/eslint-configs/compare/v6.6.2...v6.6.3) (2019-02-16)
 
 

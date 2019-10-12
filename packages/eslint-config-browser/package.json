@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-browser",
-  "version": "6.6.3",
+  "version": "7.0.0",
   "description": "Eslint config to lint js for the browser freaktechnik likes.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "eslint": ">=5.0.0"
   },
   "dependencies": {
-    "@freaktechnik/eslint-config-base": "^6.6.2",
+    "@freaktechnik/eslint-config-base": "^7.0.0",
     "eslint-plugin-compat": "^3.3.0",
     "eslint-plugin-xss": "^0.1.9"
   }
