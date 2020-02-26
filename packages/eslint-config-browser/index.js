@@ -20,7 +20,8 @@ module.exports = {
         "unicorn/prefer-node-append": "warn",
         "unicorn/prefer-node-remove": "warn",
         "unicorn/prefer-text-content": "error",
-        "unicorn/prefer-dataset": "error"
+        "unicorn/prefer-dataset": "error",
+        "unicorn/prefer-modern-dom-apis": "warn"
     },
     extends: [ "@freaktechnik/eslint-config-base" ]
 };

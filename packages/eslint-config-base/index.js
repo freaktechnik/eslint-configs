@@ -29,6 +29,7 @@ module.exports = {
         "jsdoc/require-param-description": 1,
         "jsdoc/require-returns-type": 1,
         "jsdoc/require-returns-description": 0,
+        "jsdoc/check-property-names": 1,
         "block-scoped-var": 2,
         "no-console": [
             2,
@@ -288,7 +289,11 @@ module.exports = {
         "unicorn/no-console-spaces": "warn",
         "unicorn/no-for-loop": "error",
         "unicorn/prefer-includes": "error",
-        "unicorn/expiring-todo-comments": "warn"
+        "unicorn/expiring-todo-comments": "warn",
+        "unicorn/prevent-abbreviations": "warn",
+        "unicorn/prefer-string-slice": "error",
+        "unicorn/prefer-negative-index": "error",
+        "unicorn/prefer-trim-start-end": "error"
     },
     settings: {
         jsdoc: {
