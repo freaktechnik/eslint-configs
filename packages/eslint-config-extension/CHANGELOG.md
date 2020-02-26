@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.1.0](https://github.com/freaktechnik/eslint-configs/compare/v7.0.0...v7.1.0) (2020-02-26)
+
+**Note:** Version bump only for package @freaktechnik/eslint-config-extension
+
+
+
+
+
 # [7.0.0](https://github.com/freaktechnik/eslint-configs/compare/v6.6.3...v7.0.0) (2019-10-12)
 
 **Note:** Version bump only for package @freaktechnik/eslint-config-extension
