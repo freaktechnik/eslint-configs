@@ -26,6 +26,6 @@
   },
   "dependencies": {
     "@freaktechnik/eslint-config-base": "^7.1.0",
-    "eslint-plugin-node": "^11.0.0"
+    "eslint-plugin-node": "^11.1.0"
   }
 }
