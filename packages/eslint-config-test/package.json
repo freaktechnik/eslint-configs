@@ -4,7 +4,9 @@
   "description": "Ava specific eslint config for tests freaktechnik likes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -25,9 +27,11 @@
     "@freaktechnik/eslint-config-node": "^7.1.0",
     "eslint-import-resolver-node": "^0.3.3",
     "eslint-plugin-ava": "^10.2.0",
-    "eslint-plugin-import": "^2.20.2"
+    "eslint-plugin-import": "^2.20.2",
+    "snyk": "^1.317.0"
   },
   "peerDependencies": {
     "eslint": ">=6.0.0"
-  }
+  },
+  "snyk": true
 }
