@@ -4,7 +4,9 @@
   "description": "Basic configuration for JS and JSON linting freaktechnik likes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -30,12 +32,14 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sort-class-members": "^1.7.0",
-    "eslint-plugin-unicorn": "^17.2.0"
+    "eslint-plugin-unicorn": "^17.2.0",
+    "snyk": "^1.316.2"
   },
   "peerDependencies": {
     "eslint": ">=6.0.0"
   },
   "engines": {
     "node": ">=10.0.0"
-  }
+  },
+  "snyk": true
 }
