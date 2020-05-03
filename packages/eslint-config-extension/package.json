@@ -4,7 +4,9 @@
   "description": "Browser extension linting config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -22,9 +24,11 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
-    "@freaktechnik/eslint-config-browser": "^7.1.0"
+    "@freaktechnik/eslint-config-browser": "^7.1.0",
+    "snyk": "^1.316.2"
   },
   "peerDependencies": {
     "eslint": ">=5.0.0"
-  }
+  },
+  "snyk": true
 }
