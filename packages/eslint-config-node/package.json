@@ -28,8 +28,8 @@
   },
   "dependencies": {
     "@freaktechnik/eslint-config-base": "^7.1.0",
-    "eslint-plugin-node": "^11.0.0",
-    "snyk": "^1.316.2"
+    "eslint-plugin-node": "^11.1.0",
+    "snyk": "^1.319.2"
   },
   "snyk": true
 }

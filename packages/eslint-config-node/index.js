@@ -10,10 +10,9 @@ module.exports = {
     },
     plugins: [ "node" ],
     rules: {
-        "no-new-require": 2,
-        "no-sync": 1,
-        "no-buffer-constructor": 2,
-        "handle-callback-err": 1,
+        "node/no-new-require": 2,
+        "node/no-sync": 1,
+        "node/handle-callback-err": 1,
         "security/detect-non-literal-fs-filename": 1
     },
     extends: [
