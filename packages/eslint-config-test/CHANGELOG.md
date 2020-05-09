@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.2.0](https://github.com/freaktechnik/eslint-configs/compare/v7.1.0...v7.2.0) (2020-05-09)
+
+
+### Bug Fixes
+
+* upgrade eslint-plugin-import from 2.20.1 to 2.20.2 ([6d13f3f](https://github.com/freaktechnik/eslint-configs/commit/6d13f3fdee4b78a2f3bfa4b7635c20e9d6b0c6c7))
+
+
+
+
+
 # [7.1.0](https://github.com/freaktechnik/eslint-configs/compare/v7.0.0...v7.1.0) (2020-02-26)
 
 

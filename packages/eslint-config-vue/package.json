@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-vue",
-  "version": "7.1.0",
+  "version": "7.2.0",
   "description": "Vue specific eslint config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
-    "@freaktechnik/eslint-config-browser": "^7.1.0",
-    "@freaktechnik/eslint-config-webpack": "^7.1.0",
+    "@freaktechnik/eslint-config-browser": "^7.2.0",
+    "@freaktechnik/eslint-config-webpack": "^7.2.0",
     "eslint-plugin-vue": "^6.2.2",
     "snyk": "^1.319.2"
   },

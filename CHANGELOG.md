@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.2.0](https://github.com/freaktechnik/eslint-configs/compare/v7.1.0...v7.2.0) (2020-05-09)
+
+
+### Bug Fixes
+
+* upgrade eslint-plugin-array-func from 3.1.4 to 3.1.5 ([8b4325d](https://github.com/freaktechnik/eslint-configs/commit/8b4325d92793101176494a0396bfeac5d326e86e))
+* upgrade eslint-plugin-import from 2.20.1 to 2.20.2 ([6d13f3f](https://github.com/freaktechnik/eslint-configs/commit/6d13f3fdee4b78a2f3bfa4b7635c20e9d6b0c6c7))
+* upgrade eslint-plugin-import from 2.20.1 to 2.20.2 ([dcd46cb](https://github.com/freaktechnik/eslint-configs/commit/dcd46cbc17f04a4fa04d78784f14eaf6b8659784))
+* upgrade eslint-plugin-jsdoc from 22.0.1 to 22.1.0 ([78ca3ca](https://github.com/freaktechnik/eslint-configs/commit/78ca3cac466986b51b5edd8dfeace56897c9f17f))
+* upgrade eslint-plugin-jsdoc from 22.1.0 to 22.2.0 ([3e58e33](https://github.com/freaktechnik/eslint-configs/commit/3e58e330ef727ac091b2ee1ee6d00966f4b87492))
+* upgrade eslint-plugin-sort-class-members from 1.6.0 to 1.7.0 ([2224dbe](https://github.com/freaktechnik/eslint-configs/commit/2224dbe35bd9a0e1980cbea0193a8ab686d753c3))
+
+
+### Features
+
+* add new unicorn rules ([02a5467](https://github.com/freaktechnik/eslint-configs/commit/02a546787cbbc702a51f5fc53b7ba49670576380))
+* update eslint-plugin-node ([09fb59c](https://github.com/freaktechnik/eslint-configs/commit/09fb59cbbb2e56dcb2d6a5e003fc35ef15211a16))
+
+
+
+
+
 # [7.1.0](https://github.com/freaktechnik/eslint-configs/compare/v7.0.0...v7.1.0) (2020-02-26)
 
 
