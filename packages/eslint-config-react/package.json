@@ -4,7 +4,9 @@
   "description": "React and JSX linting config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,8 @@
     "@freaktechnik/eslint-config-browser": "^7.1.0",
     "@freaktechnik/eslint-config-webpack": "^7.1.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0"
-  }
+    "eslint-plugin-react": "^7.19.0",
+    "snyk": "^1.317.0"
+  },
+  "snyk": true
 }
