@@ -27,7 +27,7 @@
     "@freaktechnik/eslint-config-browser": "^7.1.0",
     "@freaktechnik/eslint-config-webpack": "^7.1.0",
     "eslint-plugin-vue": "^6.2.2",
-    "snyk": "^1.316.2"
+    "snyk": "^1.319.2"
   },
   "snyk": true
 }
