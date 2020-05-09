@@ -293,7 +293,9 @@ module.exports = {
         "unicorn/prevent-abbreviations": "warn",
         "unicorn/prefer-string-slice": "error",
         "unicorn/prefer-negative-index": "error",
-        "unicorn/prefer-trim-start-end": "error"
+        "unicorn/prefer-trim-start-end": "error",
+        "unicorn/prefer-set-has": "warn",
+        "unicorn/no-null": "warn"
     },
     settings: {
         jsdoc: {
