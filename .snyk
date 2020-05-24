@@ -38,3 +38,5 @@ patch:
         patched: '2020-05-03T03:53:12.008Z'
     - lerna > @lerna/publish > @lerna/npm-publish > @lerna/otplease > @lerna/prompt > inquirer > lodash:
         patched: '2020-05-03T03:53:12.008Z'
+    - '@freaktechnik/eslint-config-base > eslint-plugin-unicorn > lodash':
+        patched: '2020-05-24T16:42:49.758Z'
