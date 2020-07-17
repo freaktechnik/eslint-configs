@@ -11,5 +11,8 @@ module.exports = {
         "strict": 0,
         "tree-shaking/no-side-effects-in-initialization": 0
     },
-    extends: [ "@freaktechnik/eslint-config-browser" ]
+    extends: [
+        "@freaktechnik/eslint-config-browser",
+        "plugin:no-unsanizized/DOM"
+    ]
 };
