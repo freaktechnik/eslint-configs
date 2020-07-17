@@ -3,8 +3,8 @@
   "devDependencies": {
     "@freaktechnik/eslint-config-base": "^7.2.0",
     "eclint": "^2.8.1",
-    "eslint": "^6.8.0",
-    "lerna": "^3.21.0"
+    "eslint": "^7.4.0",
+    "lerna": "^3.22.1"
   },
   "scripts": {
     "lint:js": "eslint packages/ *.json --ext js,json",
@@ -27,7 +27,5 @@
   "license": "MIT",
   "private": true,
   "snyk": true,
-  "dependencies": {
-    "snyk": "^1.327.0"
-  }
+  "dependencies": {}
 }
