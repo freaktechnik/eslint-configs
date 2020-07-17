@@ -4,9 +4,7 @@
   "description": "Vue specific eslint config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -27,6 +25,5 @@
     "@freaktechnik/eslint-config-browser": "^7.2.0",
     "@freaktechnik/eslint-config-webpack": "^7.2.0",
     "eslint-plugin-vue": "^6.2.2"
-  },
-  "snyk": true
+  }
 }

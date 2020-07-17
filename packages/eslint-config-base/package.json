@@ -4,9 +4,7 @@
   "description": "Basic configuration for JS and JSON linting freaktechnik likes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -39,6 +37,5 @@
   },
   "engines": {
     "node": ">=10.0.0"
-  },
-  "snyk": true
+  }
 }

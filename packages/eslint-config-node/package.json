@@ -4,9 +4,7 @@
   "description": "Node specific eslint config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -29,6 +27,5 @@
   "dependencies": {
     "@freaktechnik/eslint-config-base": "^7.2.0",
     "eslint-plugin-node": "^11.1.0"
-  },
-  "snyk": true
+  }
 }

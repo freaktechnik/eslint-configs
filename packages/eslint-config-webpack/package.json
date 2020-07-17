@@ -4,9 +4,7 @@
   "description": "Webpack specific linting config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -30,6 +28,5 @@
     "eslint-import-resolver-webpack": "^0.12.2",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-tree-shaking": "^1.8.0"
-  },
-  "snyk": true
+  }
 }
