@@ -9,7 +9,7 @@ updates:
     open-pull-requests-limit: 3
     versioning-strategy: "increase"
   - package-ecosystem: "npm"
-    directory: "/packkages/eslint-config-babel"
+    directory: "/packages/eslint-config-babel"
     schedule:
       interval: "weekly"
     commit-message:
@@ -17,7 +17,7 @@ updates:
     open-pull-requests-limit: 3
     versioning-strategy: "increase"
   - package-ecosystem: "npm"
-    directory: "/packkages/eslint-config-base"
+    directory: "/packages/eslint-config-base"
     schedule:
       interval: "weekly"
     commit-message:
@@ -25,7 +25,7 @@ updates:
     open-pull-requests-limit: 3
     versioning-strategy: "increase"
   - package-ecosystem: "npm"
-    directory: "/packkages/eslint-config-browser"
+    directory: "/packages/eslint-config-browser"
     schedule:
       interval: "weekly"
     commit-message:
@@ -33,7 +33,7 @@ updates:
     open-pull-requests-limit: 3
     versioning-strategy: "increase"
   - package-ecosystem: "npm"
-    directory: "/packkages/eslint-config-extension"
+    directory: "/packages/eslint-config-extension"
     schedule:
       interval: "weekly"
     commit-message:
@@ -41,7 +41,7 @@ updates:
     open-pull-requests-limit: 3
     versioning-strategy: "increase"
   - package-ecosystem: "npm"
-    directory: "/packkages/eslint-config-node"
+    directory: "/packages/eslint-config-node"
     schedule:
       interval: "weekly"
     commit-message:
@@ -49,7 +49,7 @@ updates:
     open-pull-requests-limit: 3
     versioning-strategy: "increase"
   - package-ecosystem: "npm"
-    directory: "/packkages/eslint-config-react"
+    directory: "/packages/eslint-config-react"
     schedule:
       interval: "weekly"
     commit-message:
@@ -57,7 +57,7 @@ updates:
     open-pull-requests-limit: 3
     versioning-strategy: "increase"
   - package-ecosystem: "npm"
-    directory: "/packkages/eslint-config-vue"
+    directory: "/packages/eslint-config-vue"
     schedule:
       interval: "weekly"
     commit-message:
@@ -65,7 +65,7 @@ updates:
     open-pull-requests-limit: 3
     versioning-strategy: "increase"
   - package-ecosystem: "npm"
-    directory: "/packkages/eslint-config-webpack"
+    directory: "/packages/eslint-config-webpack"
     schedule:
       interval: "weekly"
     commit-message:
