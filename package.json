@@ -3,7 +3,7 @@
   "devDependencies": {
     "@freaktechnik/eslint-config-base": "^7.2.0",
     "eclint": "^2.8.1",
-    "eslint": "^7.5.0",
+    "eslint": "^7.6.0",
     "lerna": "^3.22.1"
   },
   "scripts": {
