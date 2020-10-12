@@ -26,6 +26,6 @@
     "@freaktechnik/eslint-config-browser": "^7.2.0",
     "@freaktechnik/eslint-config-webpack": "^7.2.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.6"
+    "eslint-plugin-react": "^7.21.4"
   }
 }
