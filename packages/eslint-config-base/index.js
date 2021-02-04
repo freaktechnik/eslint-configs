@@ -290,7 +290,14 @@ module.exports = {
         "unicorn/no-for-loop": "error",
         "unicorn/prefer-includes": "error",
         "unicorn/expiring-todo-comments": "warn",
-        "unicorn/prevent-abbreviations": "warn",
+        "unicorn/prevent-abbreviations": [
+            "warn",
+            {
+                replacements: {
+                    args: false
+                }
+            }
+        ],
         "unicorn/prefer-string-slice": "error",
         "unicorn/prefer-negative-index": "error",
         "unicorn/prefer-trim-start-end": "error",
