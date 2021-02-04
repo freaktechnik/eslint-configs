@@ -13,6 +13,6 @@ module.exports = {
     },
     extends: [
         "@freaktechnik/eslint-config-browser",
-        "plugin:no-unsanizized/DOM"
+        "plugin:no-unsanitized/DOM"
     ]
 };
