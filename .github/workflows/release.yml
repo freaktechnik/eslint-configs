@@ -1,0 +1,52 @@
+name: Release
+on:
+  push:
+    tags:
+      - 'v[0-9]+\.[0-9]+\.[0-9]+'
+jobs:
+  build-base:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        package:
+          - eslint-config-base
+          - eslint-config-node
+          - eslint-config-browser
+          - eslint-config-babel
+          - eslint-config-extension
+          - eslint-config-react
+          - eslint-config-test
+          - eslint-config-vue
+          - eslint-config-webpack
+      max-parallel: 1 # so the git push works
+    steps:
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+          with:
+            node-version: ">=15.8"
+            check-latest: true
+      - run: npm ci --no-audit
+        working-directory: ./packages/${{matrix.package}}
+      - run: npm t
+        working-directory: ./packages/${{matrix.package}}
+      - run: |
+          TAG=${{ github.ref }}
+          npm version --no-git-tag-version version ${TAG/\/refs\/tags\/v/}
+        working-directory: ./packages/${{matrix.package}}
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add ./packages/${{matrix.package}}/package.json
+          git commit -m "chore: bump ${{matrix.package}}"
+          git push
+      #TODO make all the config dependencies also want this version in the package.json
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./packages/${{matrix.package}}/package.json
