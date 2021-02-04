@@ -31,6 +31,7 @@ jobs:
         with:
           node-version: ">=15.8"
           check-latest: true
+      - run: npm i -g npm@latest
       - run: npm ci --no-audit
         working-directory: ./packages/${{matrix.package}}
       - run: npm t
