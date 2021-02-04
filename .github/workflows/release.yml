@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     tags:
-      - '[0-9]+\.[0-9]+\.[0-9]+'
+      - 'v[0-9]+\.[0-9]+\.[0-9]+'
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -51,7 +51,8 @@ jobs:
           node-version: ">=15.8"
           check-latest: true
       - run: npm i -g npm@latest
-      - run: npm version --no-git-tag-version version ${{ github.ref }}
+      - name: Set release version
+      - run: npm version --no-git-tag-version version ${GITHUB_REF:11}
         working-directory: ./packages/${{matrix.package}}
       - run: |
           git config user.name github-actions
