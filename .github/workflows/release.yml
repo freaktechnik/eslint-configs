@@ -36,9 +36,7 @@ jobs:
         working-directory: ./packages/${{matrix.package}}
       - run: npm t
         working-directory: ./packages/${{matrix.package}}
-      - run: |
-          TAG=${{ github.ref }}
-          npm version --no-git-tag-version version ${TAG/\/refs\/tags\/v/}
+      - run: npm version --no-git-tag-version version ${{ github.ref }}
         working-directory: ./packages/${{matrix.package}}
       - run: |
           git config user.name github-actions
