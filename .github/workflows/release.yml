@@ -37,7 +37,6 @@ jobs:
           - eslint-config-test
           - eslint-config-vue
           - eslint-config-webpack
-      max-parallel: 1 # so the git push works
     steps:
       - uses: actions/cache@v2
         with:
