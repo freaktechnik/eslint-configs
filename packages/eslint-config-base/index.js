@@ -295,7 +295,19 @@ module.exports = {
         "unicorn/prefer-negative-index": "error",
         "unicorn/prefer-trim-start-end": "error",
         "unicorn/prefer-set-has": "warn",
-        "unicorn/no-null": "warn"
+        "unicorn/no-null": "warn",
+        "unicorn/prefer-array-find": "error",
+        "unicorn/prefer-date-now": "error",
+        "unicorn/empty-brace-spaces": "warn",
+        "unicorn/no-lonely-if": "warn",
+        "unicorn/prefer-default-parameters": "warn",
+        "unicorn/prefer-array-some": "warn",
+        "unicorn/prefer-regexp-test": "warn",
+        "unicorn/prefer-array-index-of": "error",
+        "unicorn/no-this-assignment": "error",
+        "unicorn/no-array-push": "warn",
+        "unicorn/no-array-for-each": "warn",
+        "unicron/no-useless-undefined": "error"
     },
     settings: {
         jsdoc: {
