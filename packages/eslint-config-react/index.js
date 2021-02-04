@@ -44,9 +44,11 @@ module.exports = {
             }
         ],
         "react/jsx-props-no-multi-spaces": "error",
-        "react/jsx-pascal-case": "warn"
+        "react/jsx-pascal-case": "warn",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn"
     },
-    plugins: [ "jsx-a11y" ],
+    plugins: [ "jsx-a11y", "react-hooks" ],
     extends: [
         "@freaktechnik/eslint-config-browser",
         "@freaktechnik/eslint-config-webpack",
