@@ -305,9 +305,9 @@ module.exports = {
         "unicorn/prefer-regexp-test": "warn",
         "unicorn/prefer-array-index-of": "error",
         "unicorn/no-this-assignment": "error",
-        "unicorn/no-array-push": "warn",
+        "unicorn/no-array-push-push": "warn",
         "unicorn/no-array-for-each": "warn",
-        "unicron/no-useless-undefined": "error"
+        "unicorn/no-useless-undefined": "error"
     },
     settings: {
         jsdoc: {

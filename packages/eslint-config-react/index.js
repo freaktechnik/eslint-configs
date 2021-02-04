@@ -48,7 +48,10 @@ module.exports = {
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn"
     },
-    plugins: [ "jsx-a11y", "react-hooks" ],
+    plugins: [
+        "jsx-a11y",
+        "react-hooks"
+    ],
     extends: [
         "@freaktechnik/eslint-config-browser",
         "@freaktechnik/eslint-config-webpack",
