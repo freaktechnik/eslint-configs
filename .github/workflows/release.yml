@@ -58,7 +58,7 @@ jobs:
           git config user.email github-actions@github.com
           git add ./packages/${{matrix.package}}/package.json
           git commit -m "chore: bump ${{matrix.package}}"
-          git push
+          git push origin HEAD:main
       #TODO make all the config dependencies also want this version in the package.json
       - uses: JS-DevTools/npm-publish@v1
         with:
