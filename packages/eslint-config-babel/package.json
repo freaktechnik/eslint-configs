@@ -26,6 +26,6 @@
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.13.14",
-    "@babel/eslint-plugin": "^7.13.10"
+    "@babel/eslint-plugin": "^7.13.15"
   }
 }
