@@ -69,6 +69,8 @@ jobs:
     name: Update Repository state
     needs: npm-publish
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v2
       - uses: actions/download-artifact@v2
@@ -107,6 +109,7 @@ jobs:
         with:
           name: eslint-config-webpack
           path: ./packages/eslint-config-webpack
+      #TODO tag version?
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
