@@ -3,7 +3,7 @@
   "devDependencies": {
     "@freaktechnik/eslint-config-base": "^8.0.0",
     "eclint": "^2.8.1",
-    "eslint": "^7.30.0",
+    "eslint": "^7.31.0",
     "eslint-plugin-jsdoc": "^36.0.2",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-unicorn": "^34.0.1"
