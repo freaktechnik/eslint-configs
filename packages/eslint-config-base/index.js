@@ -281,7 +281,12 @@ module.exports = {
         "unicorn/no-new-buffer": "error",
         "unicorn/no-hex-escape": "error",
         "unicorn/prefer-starts-ends-with": "error",
-        "unicorn/import-index": "warn",
+        "unicorn/import-index": [
+            "warn",
+            {
+                ignoreImports: true
+            }
+        ],
         "unicorn/new-for-builtins": "error",
         "unicorn/regex-shorthand": "warn",
         "unicorn/error-message": "warn",
