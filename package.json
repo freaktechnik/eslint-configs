@@ -6,7 +6,7 @@
     "eslint": "^7.32.0",
     "eslint-plugin-jsdoc": "^36.0.8",
     "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-unicorn": "^35.0.0"
+    "eslint-plugin-unicorn": "^36.0.0"
   },
   "scripts": {
     "lint:js": "eslint packages/ *.json --ext js,json",
