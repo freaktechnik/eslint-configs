@@ -5,7 +5,7 @@ module.exports = {
         node: true
     },
     parserOptions: {
-        ecmaVersion: 2016,
+        ecmaVersion: "latest",
         sourceType: "module"
     },
     plugins: [ "node" ],

@@ -1,11 +1,8 @@
 "use strict";
 
 module.exports = {
-    env: {
-        es6: true
-    },
     parserOptions: {
-        ecmaVersion: 6
+        ecmaVersion: "latest"
     },
     plugins: [
         "jsdoc",

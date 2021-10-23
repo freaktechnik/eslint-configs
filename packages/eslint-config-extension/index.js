@@ -5,7 +5,7 @@ module.exports = {
         webextensions: true
     },
     parserOptions: {
-        ecmaVersion: 2017
+        ecmaVersion: "latest"
     },
     rules: {
         "strict": 0,

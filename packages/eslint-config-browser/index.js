@@ -5,7 +5,7 @@ module.exports = {
         browser: true
     },
     parserOptions: {
-        ecmaVersion: 2017
+        ecmaVersion: "latest"
     },
     plugins: [
         "xss",
