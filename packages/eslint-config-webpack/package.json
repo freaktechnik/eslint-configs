@@ -22,11 +22,14 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "peerDependencies": {
-    "eslint": ">=7.0.0"
+    "eslint": ">=8.1.0"
   },
   "dependencies": {
     "eslint-import-resolver-webpack": "^0.13.2",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-tree-shaking": "^1.9.2"
+  },
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
   }
 }

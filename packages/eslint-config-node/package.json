@@ -22,10 +22,13 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "peerDependencies": {
-    "eslint": ">=7.0.0"
+    "eslint": ">=8.1.0"
   },
   "dependencies": {
     "@freaktechnik/eslint-config-base": "^8.0.2",
     "eslint-plugin-node": "^11.1.0"
+  },
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
   }
 }

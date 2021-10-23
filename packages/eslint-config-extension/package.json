@@ -26,6 +26,9 @@
     "eslint-plugin-no-unsanitized": "^4.0.1"
   },
   "peerDependencies": {
-    "eslint": ">=7.0.0"
+    "eslint": ">=8.1.0"
+  },
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
   }
 }
