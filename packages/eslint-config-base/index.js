@@ -321,6 +321,13 @@ module.exports = {
         "unicorn/no-array-push-push": "warn",
         "unicorn/no-array-for-each": "warn",
         "unicorn/no-useless-undefined": "error",
+        "unicorn/prefer-switch": "error",
+        "unicorn/require-array-join-separator": "error",
+        "unicorn/require-number-to-fixed-digits-argument": "error",
+        "unicorn/prefer-prototype-methods": "error",
+        "unicorn/prefer-object-has-own": "warn",
+        "unicorn/no-array-method-this-argument": "warn",
+        "unicorn/no-useless-fallback-in-spread": "error",
         "optimize-regex/optimize-regex": "warn"
     },
     settings: {

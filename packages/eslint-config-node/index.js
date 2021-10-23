@@ -2,18 +2,20 @@
 
 module.exports = {
     env: {
-        node: true,
-        es6: true
+        node: true
     },
     parserOptions: {
-        ecmaVersion: 2016
+        ecmaVersion: 2016,
+        sourceType: "module"
     },
     plugins: [ "node" ],
     rules: {
         "node/no-new-require": 2,
         "node/no-sync": 1,
         "node/handle-callback-err": 1,
-        "security/detect-non-literal-fs-filename": 1
+        "security/detect-non-literal-fs-filename": 1,
+        "unicorn/prefer-node-protocol": "error",
+        "unicorn/prefer-module": "error"
     },
     extends: [
         "@freaktechnik/eslint-config-base",
