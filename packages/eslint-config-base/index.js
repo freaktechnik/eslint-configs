@@ -15,7 +15,8 @@ module.exports = {
         "promise",
         "eslint-comments",
         "sort-class-members",
-        "unicorn"
+        "unicorn",
+        "optimize-regex"
     ],
     rules: {
         "jsdoc/check-param-names": 2,
@@ -319,7 +320,8 @@ module.exports = {
         "unicorn/no-this-assignment": "error",
         "unicorn/no-array-push-push": "warn",
         "unicorn/no-array-for-each": "warn",
-        "unicorn/no-useless-undefined": "error"
+        "unicorn/no-useless-undefined": "error",
+        "optimize-regex/optimize-regex": "warn"
     },
     settings: {
         jsdoc: {
