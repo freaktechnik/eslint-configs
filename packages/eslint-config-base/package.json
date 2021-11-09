@@ -29,7 +29,7 @@
     "eslint-plugin-json-light": "^1.0.3",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-sort-class-members": "^1.13.0",
+    "eslint-plugin-sort-class-members": "^1.14.0",
     "eslint-plugin-unicorn": "^37.0.1"
   },
   "peerDependencies": {
