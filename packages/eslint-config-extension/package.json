@@ -23,7 +23,7 @@
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
     "@freaktechnik/eslint-config-browser": "^8.0.2",
-    "eslint-plugin-no-unsanitized": "^4.0.0"
+    "eslint-plugin-no-unsanitized": "^4.0.1"
   },
   "peerDependencies": {
     "eslint": ">=7.0.0"
