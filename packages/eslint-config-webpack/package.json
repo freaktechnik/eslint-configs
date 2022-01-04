@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "eslint-import-resolver-webpack": "^0.13.2",
-    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-tree-shaking": "^1.9.2"
   }
 }
