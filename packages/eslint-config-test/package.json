@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-test",
-  "version": "9.0.0",
+  "version": "9.0.1",
   "description": "Ava specific eslint config for tests freaktechnik likes.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
-    "@freaktechnik/eslint-config-node": "^9.0.0",
+    "@freaktechnik/eslint-config-node": "^9.0.3",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-plugin-ava": "^13.2.0",
     "eslint-plugin-import": "^2.25.4"

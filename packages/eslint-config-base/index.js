@@ -1,6 +1,10 @@
 "use strict";
 
 module.exports = {
+    env: {
+        es2021: true,
+        "shared-node-browser": true
+    },
     parserOptions: {
         ecmaVersion: "latest"
     },
@@ -327,7 +331,7 @@ module.exports = {
         "unicorn/no-useless-fallback-in-spread": "error",
         "unicorn/no-empty-file": "error",
         "unicorn/no-useless-promise-resolve-reject": "error",
-        "optimize-regex/optimize-regex": "warn",
+        "optimize-regex/optimize-regex": "warn"
     },
     settings: {
         jsdoc: {
