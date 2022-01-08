@@ -7,17 +7,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: ">=15.8"
           check-latest: true
+          cache: 'npm'
       - run: npm i -g npm@latest
       - run: npm ci --no-audit
       - run: npm t
@@ -41,17 +36,12 @@ jobs:
           - eslint-config-vue
           - eslint-config-webpack
     steps:
-      - uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: ">=15.8"
           check-latest: true
+          cache: 'npm'
       - run: npm i -g npm@latest
       - run: npm version --no-git-tag-version ${GITHUB_REF:11}
         working-directory: ./packages/${{matrix.package}}
