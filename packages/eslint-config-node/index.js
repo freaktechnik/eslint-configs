@@ -17,7 +17,7 @@ module.exports = {
         "unicorn/prefer-node-protocol": "error",
         "unicorn/prefer-module": "error",
         "unicorn/no-invalid-remove-event-listener": "error",
-        "unicorn/prefer-json-prase-buffer": "warn"
+        "unicorn/prefer-json-parse-buffer": "warn"
     },
     extends: [
         "@freaktechnik/eslint-config-base",
