@@ -325,7 +325,9 @@ module.exports = {
         "unicorn/prefer-object-has-own": "warn",
         "unicorn/no-array-method-this-argument": "warn",
         "unicorn/no-useless-fallback-in-spread": "error",
-        "optimize-regex/optimize-regex": "warn"
+        "unicorn/no-empty-file": "error",
+        "unicorn/no-useless-promise-resolve-reject": "error",
+        "optimize-regex/optimize-regex": "warn",
     },
     settings: {
         jsdoc: {

@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-react",
-  "version": "8.0.2",
+  "version": "9.0.0",
   "description": "React and JSX linting config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
@@ -25,9 +25,9 @@
     "eslint": ">=8.1.0"
   },
   "dependencies": {
-    "@freaktechnik/eslint-config-babel": "^8.0.2",
-    "@freaktechnik/eslint-config-browser": "^8.0.2",
-    "@freaktechnik/eslint-config-webpack": "^8.0.2",
+    "@freaktechnik/eslint-config-babel": "^9.0.0",
+    "@freaktechnik/eslint-config-browser": "^9.0.0",
+    "@freaktechnik/eslint-config-webpack": "^9.0.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0"

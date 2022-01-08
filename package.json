@@ -27,7 +27,15 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/eslint-config-base",
+    "packages/eslint-config-babel",
+    "packages/eslint-config-browser",
+    "packages/eslint-config-extension",
+    "packages/eslint-config-node",
+    "packages/eslint-config-react",
+    "packages/eslint-config-test",
+    "packages/eslint-config-vue",
+    "packages/eslint-config-webpack"
   ],
   "version": "8.0.2",
   "engines": {
