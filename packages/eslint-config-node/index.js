@@ -19,7 +19,8 @@ module.exports = {
         "unicorn/no-invalid-remove-event-listener": "error",
         "unicorn/prefer-json-parse-buffer": "warn",
         "import/no-unresolved": 0,
-        "node/no-missing-import": 0
+        "node/no-missing-import": 0,
+        "unicorn/text-encoding-identifier-case": "error"
     },
     extends: [
         "@freaktechnik/eslint-config-base",
