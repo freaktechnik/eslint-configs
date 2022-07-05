@@ -331,6 +331,7 @@ module.exports = {
         "unicorn/no-useless-fallback-in-spread": "error",
         "unicorn/no-empty-file": "error",
         "unicorn/no-useless-promise-resolve-reject": "error",
+        "unicorn/prefer-logical-operator-over-ternary": "error",
         "optimize-regex/optimize-regex": "warn"
     },
     settings: {
