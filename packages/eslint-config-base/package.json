@@ -31,7 +31,7 @@
     "eslint-plugin-promise": "^6.0.1",
     "eslint-plugin-security": "^1.5.0",
     "eslint-plugin-sort-class-members": "^1.15.2",
-    "eslint-plugin-unicorn": "^43.0.2"
+    "eslint-plugin-unicorn": "^44.0.0"
   },
   "peerDependencies": {
     "eslint": ">=8.1.0"
