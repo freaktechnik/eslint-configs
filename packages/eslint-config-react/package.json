@@ -29,7 +29,7 @@
     "@freaktechnik/eslint-config-browser": "^9.0.1",
     "@freaktechnik/eslint-config-webpack": "^9.0.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
-    "eslint-plugin-react": "^7.31.9",
+    "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "engines": {
