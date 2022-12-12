@@ -8,7 +8,7 @@
     "eslint-plugin-optimize-regex": "^1.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-sort-class-members": "^1.16.0",
-    "eslint-plugin-unicorn": "^45.0.1"
+    "eslint-plugin-unicorn": "^45.0.2"
   },
   "scripts": {
     "lint:js": "eslint packages/ *.json --ext js,json",
