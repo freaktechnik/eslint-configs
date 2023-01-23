@@ -29,7 +29,7 @@
     "eslint-plugin-json-light": "^1.0.3",
     "eslint-plugin-optimize-regex": "^1.2.1",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-security": "^1.5.0",
+    "eslint-plugin-security": "^1.6.0",
     "eslint-plugin-sort-class-members": "^1.16.0",
     "eslint-plugin-unicorn": "^45.0.2"
   },
