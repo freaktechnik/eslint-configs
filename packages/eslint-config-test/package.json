@@ -25,7 +25,7 @@
     "@freaktechnik/eslint-config-node": "^9.0.3",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-plugin-ava": "^13.2.0",
-    "eslint-plugin-import": "^2.26.0"
+    "eslint-plugin-import": "^2.27.5"
   },
   "peerDependencies": {
     "eslint": ">=8.1.0"
