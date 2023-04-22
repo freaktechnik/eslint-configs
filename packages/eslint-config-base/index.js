@@ -365,6 +365,8 @@ module.exports = {
         "unicorn/no-unreadable-iife": "error",
         "unicorn/prefer-native-coercion-functions": "warn",
         "unicorn/no-useless-promsie-resolve-reject": "error",
+        "unicorn/prefer-replace-all": "warn",
+        "unicron/prefer-optional-catch-binding": "warn",
         "optimize-regex/optimize-regex": "warn"
     },
     settings: {
