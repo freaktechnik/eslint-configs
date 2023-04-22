@@ -254,6 +254,7 @@ module.exports = {
             "^[a-z0-9-]+$"
         ],
         "promise/always-return": 1,
+        "promise/prefer-await-to-then": "warn",
         "security/detect-non-literal-fs-filename": 0,
         "sort-class-members/sort-class-members": [
             2,
