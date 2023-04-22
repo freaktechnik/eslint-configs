@@ -251,7 +251,7 @@ module.exports = {
         "no-empty-static-block": "error",
         "filenames/match-regex": [
             2,
-            "^[a-z0-9-]+$"
+            "^[a-z0-9-.]+$"
         ],
         "promise/always-return": 1,
         "promise/prefer-await-to-then": "warn",
