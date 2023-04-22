@@ -245,6 +245,10 @@ module.exports = {
         "no-misleading-character-class": 2,
         "no-prototype-builtins": 0,
         "no-negated-condition": "warn",
+        "prefer-object-has-own": "warn",
+        "no-constant-binary-expression": "error",
+        "no-new-native-nonconstructor": "error",
+        "no-empty-static-block": "error",
         "filenames/match-regex": [
             2,
             "^[a-z0-9-]+$"
@@ -347,7 +351,6 @@ module.exports = {
         "unicorn/require-array-join-separator": "error",
         "unicorn/require-number-to-fixed-digits-argument": "error",
         "unicorn/prefer-prototype-methods": "error",
-        "unicorn/prefer-object-has-own": "warn",
         "unicorn/no-array-method-this-argument": "warn",
         "unicorn/no-useless-fallback-in-spread": "error",
         "unicorn/no-empty-file": "error",
