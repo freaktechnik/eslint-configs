@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-vue",
-  "version": "8.1.0",
+  "version": "9.1.0",
   "description": "Vue specific eslint config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
