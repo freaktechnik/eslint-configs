@@ -244,6 +244,7 @@ module.exports = {
         "no-async-promise-executor": 2,
         "no-misleading-character-class": 2,
         "no-prototype-builtins": 0,
+        "no-negated-condition": "warn",
         "filenames/match-regex": [
             2,
             "^[a-z0-9-]+$"
@@ -352,6 +353,14 @@ module.exports = {
         "unicorn/no-empty-file": "error",
         "unicorn/no-useless-promise-resolve-reject": "error",
         "unicorn/prefer-logical-operator-over-ternary": "error",
+        "unicorn/no-typeof-undefined": "error",
+        "unicorn/prefer-set-size": "error",
+        "unicorn/no-unnecessary-await": "warn",
+        "unicorn/no-useless-switch-case": "error",
+        "unicorn/prefer-modern-math-apis": "error",
+        "unicorn/no-unreadable-iife": "error",
+        "unicorn/prefer-native-coercion-functions": "warn",
+        "unicorn/no-useless-promsie-resolve-reject": "error",
         "optimize-regex/optimize-regex": "warn"
     },
     settings: {
