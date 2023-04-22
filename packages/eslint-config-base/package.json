@@ -34,7 +34,7 @@
     "eslint-plugin-unicorn": "^46.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=8.1.0"
+    "eslint": ">=8.27.0"
   },
   "engines": {
     "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
