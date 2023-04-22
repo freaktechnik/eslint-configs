@@ -25,7 +25,6 @@ module.exports = {
         "jsdoc/check-param-names": 2,
         "jsdoc/check-tag-names": 1,
         "jsdoc/check-types": 2,
-        "jsdoc/newline-after-description": 2,
         "jsdoc/require-description-complete-sentence": 2,
         "jsdoc/require-hyphen-before-param-description": 2,
         "jsdoc/require-param": 2,
@@ -49,7 +48,15 @@ module.exports = {
         "jsdoc/require-returns-check": 1,
         "jsdoc/require-yields": 1,
         "jsdoc/require-yields-check": 1,
-        "jsdoc/tag-lines": 1,
+        "jsdoc/tag-lines": [
+            "warn",
+            [
+                "any",
+                {
+                    startLines: 1
+                }
+            ]
+        ],
         "jsdoc/sort-tags": 1,
         "jsdoc/check-syntax": 2,
         "block-scoped-var": 2,

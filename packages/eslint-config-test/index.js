@@ -6,7 +6,6 @@ module.exports = {
         "jsdoc/check-param-names": 0,
         "jsdoc/check-tag-names": 0,
         "jsdoc/check-types": 0,
-        "jsdoc/newline-after-description": 0,
         "jsdoc/require-description-complete-sentence": 0,
         "jsdoc/require-hyphen-before-param-description": 0,
         "jsdoc/require-param": 0,
