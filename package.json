@@ -4,7 +4,7 @@
     "@freaktechnik/eslint-config-base": "^8.0.0",
     "eclint": "^2.8.1",
     "eslint": "^8.38.0",
-    "eslint-plugin-jsdoc": "^41.1.2",
+    "eslint-plugin-jsdoc": "^43.0.7",
     "eslint-plugin-optimize-regex": "^1.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-sort-class-members": "^1.17.1",
