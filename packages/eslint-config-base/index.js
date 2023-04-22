@@ -20,6 +20,8 @@ module.exports = {
         "optimize-regex"
     ],
     rules: {
+        "jsdoc/check-access": 1,
+        "jsdoc/check-alignment": 2,
         "jsdoc/check-param-names": 2,
         "jsdoc/check-tag-names": 1,
         "jsdoc/check-types": 2,
@@ -28,10 +30,28 @@ module.exports = {
         "jsdoc/require-hyphen-before-param-description": 2,
         "jsdoc/require-param": 2,
         "jsdoc/require-param-type": 1,
+        "jsdoc/require-param-name": 1,
         "jsdoc/require-param-description": 1,
         "jsdoc/require-returns-type": 1,
         "jsdoc/require-returns-description": 0,
-        "jsdoc/check-property-names": 1,
+        "jsdoc/check-property-names": 2,
+        "jsdoc/valid-types": 2,
+        "jsdoc/check-values": 1,
+        "jsdoc/empty-tags": 1,
+        "jsdoc/implements-on-classes": 1,
+        "jsdoc/multiline-blocks": 1,
+        "jsdoc/no-multi-asterisks": 1,
+        "jsdoc/require-property": 1,
+        "jsdoc/require-property-description": 1,
+        "jsdoc/require-property-name": 1,
+        "jsdoc/require-property-type": 1,
+        "jsdoc/require-returns": 1,
+        "jsdoc/require-returns-check": 1,
+        "jsdoc/require-yields": 1,
+        "jsdoc/require-yields-check": 1,
+        "jsdoc/tag-lines": 1,
+        "jsdoc/sort-tags": 1,
+        "jsdoc/check-syntax": 2,
         "block-scoped-var": 2,
         "no-console": [
             2,
@@ -342,7 +362,8 @@ module.exports = {
             },
             additionalTagNames: {
                 customTags: [ "async" ]
-            }
+            },
+            mode: "typescript"
         }
     },
     extends: [
