@@ -50,12 +50,10 @@ module.exports = {
         "jsdoc/require-yields-check": 1,
         "jsdoc/tag-lines": [
             "warn",
-            [
-                "any",
-                {
-                    startLines: 1
-                }
-            ]
+            "any",
+            {
+                startLines: 1
+            }
         ],
         "jsdoc/sort-tags": 1,
         "jsdoc/check-syntax": 2,
