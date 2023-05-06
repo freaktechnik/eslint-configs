@@ -2,8 +2,7 @@
   "name": "eslint-configs-freaktechnik",
   "devDependencies": {
     "@freaktechnik/eslint-config-base": "^8.0.0",
-    "eclint": "^2.8.1",
-    "eslint": "^8.40.0",
+    "eslint": "8.39.0",
     "eslint-plugin-jsdoc": "^43.1.1",
     "eslint-plugin-optimize-regex": "^1.2.1",
     "eslint-plugin-promise": "^6.1.1",
@@ -11,9 +10,7 @@
     "eslint-plugin-unicorn": "^47.0.0"
   },
   "scripts": {
-    "lint:js": "eslint packages/ *.json --ext js,json",
-    "lint:ec": "eclint check $(git ls-files)",
-    "lint": "npm run lint:js && npm run lint:ec",
+    "lint": "eslint packages/ *.json --ext js,json",
     "test": "npm run lint"
   },
   "repository": {
