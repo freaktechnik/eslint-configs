@@ -24,17 +24,4 @@ jobs:
           cache: 'npm'
       - run: npm i -g npm@latest
       - run: npm ci --no-audit
-      - run: npm run lint:js
-  lint-ec:
-    needs: setup
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: ">=15.8"
-          check-latest: true
-          cache: 'npm'
-      - run: npm i -g npm@latest
-      - run: npm ci --no-audit
-      - run: npm run lint:ec
+      - run: npm run lint
