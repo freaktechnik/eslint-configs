@@ -3,12 +3,12 @@
   "devDependencies": {
     "@freaktechnik/eslint-config-base": "^8.0.0",
     "eclint": "^2.8.1",
-    "eslint": "^8.39.0",
+    "eslint": "^8.40.0",
     "eslint-plugin-jsdoc": "^43.1.1",
     "eslint-plugin-optimize-regex": "^1.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-sort-class-members": "^1.17.1",
-    "eslint-plugin-unicorn": "^46.0.0"
+    "eslint-plugin-unicorn": "^47.0.0"
   },
   "scripts": {
     "lint:js": "eslint packages/ *.json --ext js,json",
@@ -40,7 +40,7 @@
   ],
   "version": "9.1.1",
   "engines": {
-    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+    "node": ">=16.0.0"
   },
   "publishConfig": {
     "provenance": true
