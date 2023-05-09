@@ -35,7 +35,7 @@
     "packages/eslint-config-vue",
     "packages/eslint-config-webpack"
   ],
-  "version": "9.2.0",
+  "version": "9.2.1",
   "engines": {
     "node": ">=16.0.0"
   },
