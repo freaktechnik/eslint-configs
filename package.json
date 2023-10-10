@@ -6,7 +6,7 @@
     "eslint-plugin-jsdoc": "^46.8.2",
     "eslint-plugin-optimize-regex": "^1.2.1",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-sort-class-members": "^1.18.0",
+    "eslint-plugin-sort-class-members": "^1.19.0",
     "eslint-plugin-unicorn": "^48.0.1",
     "globals": "^13.23.0"
   },
