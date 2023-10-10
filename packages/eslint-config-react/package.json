@@ -25,6 +25,7 @@
     "eslint": ">=8.27.0"
   },
   "dependencies": {
+    "@eslint/eslintrc": "^2.1.2",
     "@freaktechnik/eslint-config-babel": "^9.2.1",
     "@freaktechnik/eslint-config-browser": "^9.2.1",
     "@freaktechnik/eslint-config-webpack": "^9.2.1",
@@ -37,5 +38,6 @@
   },
   "publishConfig": {
     "provenance": true
-  }
+  },
+  "type": "module"
 }

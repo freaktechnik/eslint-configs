@@ -33,5 +33,6 @@
   },
   "publishConfig": {
     "provenance": true
-  }
+  },
+  "type": "module"
 }

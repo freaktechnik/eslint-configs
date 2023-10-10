@@ -1,8 +1,19 @@
-"use strict";
+import babelParser from "@babel/eslint-parser";
+import babel from "@babel/eslint-plugin";
 
-module.exports = {
-    parser: "@babel/eslint-parser",
-    plugins: [ "@babel" ],
+export default {
+    files: [
+        "**/*.js",
+        "**/*.mjs",
+        "**/*.jsx",
+        "**/*.vue",
+    ],
+    languageOptions: {
+        parser: babelParser,
+    },
+    plugins: {
+        "@babel": babel,
+    },
     rules: {
         "new-cap": 0,
         "object-curly-spacing": 0,
@@ -11,9 +22,9 @@ module.exports = {
         "@babel/new-cap": 2,
         "@babel/object-curly-spacing": [
             "error",
-            "always"
+            "always",
         ],
         "@babel/no-invalid-this": 2,
-        "@babel/semi": 2
-    }
+        "@babel/semi": 2,
+    },
 };

@@ -1,7 +1,26 @@
-"use strict";
+import eslintConfigNode from "@freaktechnik/eslint-config-node";
+import ava from "eslint-plugin-ava";
+import { FlatCompat } from "@eslint/eslintrc";
+import path from "path";
+import { fileURLToPath } from "url";
 
-module.exports = {
-    plugins: [ "ava" ],
+const dirname = path.dirname(fileURLToPath(import.meta.url)),
+    compat = new FlatCompat({
+        baseDirectory: dirname,
+        resolvePluginsRelativeTo: dirname,
+    });
+
+export default {
+    ...(compat.extends("plugin:ava/recommended")[0]),
+    ...(compat.extends("plugin:import/errors")[0]),
+    ...(compat.extends("plugin:import/warnings")[0]),
+    // Add node specific rules, assume base will always apply.
+    ...eslintConfigNode.at(-2),
+    ...eslintConfigNode.at(-1),
+    files: [ "test/**/*.js" ],
+    plugins: {
+        ava,
+    },
     rules: {
         "jsdoc/check-param-names": 0,
         "jsdoc/check-tag-names": 0,
@@ -18,7 +37,7 @@ module.exports = {
         "node/no-unsupported-features": 0,
         "filenames/match-regex": [
             2,
-            "^_?[a-z0-9-]+$"
+            "^_?[a-z0-9-]+$",
         ],
         "security/detect-non-literal-fs-filename": 0,
         "tree-shaking/no-side-effects-in-initialization": 0,
@@ -27,18 +46,12 @@ module.exports = {
             {
                 "ignores": [
                     "modules",
-                    "asyncFunctions"
-                ]
-            }
-        ]
+                    "asyncFunctions",
+                ],
+            },
+        ],
     },
     settings: {
-        "import/resolver": "node"
+        "import/resolver": "node",
     },
-    extends: [
-        "plugin:ava/recommended",
-        "plugin:import/errors",
-        "plugin:import/warnings",
-        "@freaktechnik/eslint-config-node"
-    ]
 };
