@@ -48,7 +48,7 @@ jobs:
       - run: npm version --no-git-tag-version ${GITHUB_REF:11}
         working-directory: ./packages/${{matrix.package}}
       #TODO make all the config dependencies also want this version in the package.json
-      - uses: JS-DevTools/npm-publish@v2
+      - uses: JS-DevTools/npm-publish@v3
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./packages/${{matrix.package}}/package.json
