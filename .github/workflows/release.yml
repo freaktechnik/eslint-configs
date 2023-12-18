@@ -65,39 +65,39 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: eslint-config-base
           path: ./packages/eslint-config-base
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: eslint-config-node
           path: ./packages/eslint-config-node
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: eslint-config-browser
           path: ./packages/eslint-config-browser
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: eslint-config-babel
           path: ./packages/eslint-config-babel
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: eslint-config-extension
           path: ./packages/eslint-config-extension
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: eslint-config-react
           path: ./packages/eslint-config-react
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: eslint-config-test
           path: ./packages/eslint-config-test
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: eslint-config-vue
           path: ./packages/eslint-config-vue
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: eslint-config-webpack
           path: ./packages/eslint-config-webpack
