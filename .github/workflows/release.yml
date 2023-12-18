@@ -52,7 +52,7 @@ jobs:
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./packages/${{matrix.package}}/package.json
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.package }}
           path: ./packages/${{matrix.package}}/package.json
