@@ -11,6 +11,7 @@ import { FlatCompat } from "@eslint/eslintrc";
 import path from "path";
 import { fileURLToPath } from "url";
 import security from "eslint-plugin-security";
+import arrayFunc from "eslint-plugin-array-func";
 
 const dirname = path.dirname(fileURLToPath(import.meta.url)),
     compat = new FlatCompat({
@@ -22,7 +23,8 @@ const dirname = path.dirname(fileURLToPath(import.meta.url)),
 
 export default [
     js.configs.recommended,
-    ...compat.extends("plugin:promise/recommended", "plugin:array-func/recommended"),
+    arrayFunc.configs.recommended,
+    ...compat.extends("plugin:promise/recommended"),
     security.configs.recommended,
     {
         files: [ "**/*" ],
