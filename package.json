@@ -8,7 +8,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-sort-class-members": "^1.20.0",
     "eslint-plugin-unicorn": "^51.0.1",
-    "globals": "^14.0.0"
+    "globals": "^15.0.0"
   },
   "scripts": {
     "lint": "eslint packages/ *.json",
