@@ -13,7 +13,7 @@ const dirname = path.dirname(fileURLToPath(import.meta.url)),
 
 export default [
     ...eslintConfigBase,
-    ...(compat.extends("plugin:node/recommended-module")[0]),
+    ...compat.extends("plugin:node/recommended-module"),
     {
         files: [
             "**/*.js",

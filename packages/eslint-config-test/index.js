@@ -11,9 +11,7 @@ const dirname = path.dirname(fileURLToPath(import.meta.url)),
     });
 
 export default {
-    ...(compat.extends("plugin:ava/recommended")[0]),
-    ...(compat.extends("plugin:import/errors")[0]),
-    ...(compat.extends("plugin:import/warnings")[0]),
+    ...compat.extends("plugin:ava/recommended", "plugin:import/errors", "plugin:import/warnings"),
     // Add node specific rules, assume base will always apply.
     ...eslintConfigNode.at(-2),
     ...eslintConfigNode.at(-1),
