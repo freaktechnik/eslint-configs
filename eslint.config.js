@@ -1,5 +1,5 @@
 import globals from "globals";
-import freaktechnikConfigBase from "./packages/eslint-config-base/index.js";
+import freaktechnikConfigBase from "@freaktechnik/eslint-config-base";
 
 export default [
     ...freaktechnikConfigBase,
