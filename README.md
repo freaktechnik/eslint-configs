@@ -14,3 +14,11 @@ Configurations are published under the @freaktechnik namespace.
 - webpack
 - babel
 - react
+
+## Bumping the version
+
+To bump the version, use the following kind of command:
+
+```sh
+npm version --workspaces <target version>
+```
