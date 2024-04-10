@@ -70,6 +70,14 @@ export default [
         },
         settings: {
             "import/resolver": "node",
+            "import/parsers": {
+                espree: [
+                    ".js",
+                    ".cjs",
+                    ".mjs",
+                    ".jsx",
+                ],
+            },
         },
     },
 ];
