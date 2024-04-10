@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-test",
-  "version": "10.0.4",
+  "version": "10.0.5",
   "description": "Ava specific eslint config for tests freaktechnik likes.",
   "main": "index.js",
   "scripts": {
