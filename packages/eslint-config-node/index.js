@@ -1,5 +1,3 @@
-import globals from "globals";
-import node from "eslint-plugin-node";
 import eslintConfigBase from "@freaktechnik/eslint-config-base";
 import { FlatCompat } from "@eslint/eslintrc";
 import path from "path";
@@ -20,13 +18,8 @@ export default [
             "**/*.mjs",
         ],
         languageOptions: {
-            globals: {
-                ...globals.node,
-            },
             ecmaVersion: "latest",
-            sourceType: "module",
         },
-        plugins: { node },
         rules: {
             "node/no-new-require": 2,
             "node/no-sync": 1,

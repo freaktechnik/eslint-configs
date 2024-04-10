@@ -27,8 +27,7 @@
   "dependencies": {
     "@eslint/eslintrc": "^3.0.2",
     "@freaktechnik/eslint-config-base": "^10.0.0",
-    "eslint-plugin-node": "^11.1.0",
-    "globals": "^15.0.0"
+    "eslint-plugin-node": "^11.1.0"
   },
   "engines": {
     "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
