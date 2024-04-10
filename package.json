@@ -1,7 +1,7 @@
 {
   "name": "eslint-configs-freaktechnik",
   "devDependencies": {
-    "@freaktechnik/eslint-config-base": "^8.0.0",
+    "@freaktechnik/eslint-config-base": "^10.0.0",
     "eslint": "^8.57.0",
     "eslint-plugin-jsdoc": "^48.2.3",
     "eslint-plugin-optimize-regex": "^1.2.1",
