@@ -1,10 +1,19 @@
 import globals from "globals";
 import node from "eslint-plugin-node";
 import eslintConfigBase from "@freaktechnik/eslint-config-base";
+import { FlatCompat } from "@eslint/eslintrc";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const dirname = path.dirname(fileURLToPath(import.meta.url)),
+    compat = new FlatCompat({
+        baseDirectory: dirname,
+        resolvePluginsRelativeTo: dirname,
+    });
 
 export default [
     ...eslintConfigBase,
-    node.configs["recommended-module"],
+    ...(compat.extends("plugin:node/recommended-module")[0]),
     {
         files: [
             "**/*.js",
