@@ -9,11 +9,10 @@ const dirname = path.dirname(fileURLToPath(import.meta.url)),
         baseDirectory: dirname,
         resolvePluginsRelativeTo: dirname,
     }),
-
-    [
-        importErrors,
-        importWarnings,
-    ] = compat.extends("plugin:import/errors", "plugin:import/warnings"),
+    // [
+    //     importErrors,
+    //     importWarnings,
+    // ] = compat.extends("plugin:import/errors", "plugin:import/warnings"),
     [
         , nodeRecommended,
         nodeConfig,
@@ -25,8 +24,8 @@ export default [
     {
         files: [ "test/**/*.js" ],
         plugins: {
-            ...importErrors.plugins,
-            ...importWarnings.plugins,
+            // ...importErrors.plugins,
+            // ...importWarnings.plugins,
             ...nodeRecommended.plugins,
             ava,
         },
@@ -35,8 +34,8 @@ export default [
             ...nodeConfig.languageOptions,
         },
         rules: {
-            ...importErrors.rules,
-            ...importWarnings.rules,
+            // ...importErrors.rules,
+            // ...importWarnings.rules,
             ...nodeRecommended.rules,
             ...nodeConfig.rules,
             "jsdoc/check-param-names": 0,
@@ -68,16 +67,8 @@ export default [
                 },
             ],
         },
-        settings: {
-            "import/resolver": "node",
-            "import/parsers": {
-                espree: [
-                    ".js",
-                    ".cjs",
-                    ".mjs",
-                    ".jsx",
-                ],
-            },
-        },
+        // settings: {
+        //     "import/resolver": "node",
+        // },
     },
 ];
