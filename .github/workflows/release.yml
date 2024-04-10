@@ -45,66 +45,8 @@ jobs:
           check-latest: true
           cache: 'npm'
       - run: npm i -g npm@latest
-      - run: npm version --no-git-tag-version ${GITHUB_REF:11}
-        working-directory: ./packages/${{matrix.package}}
       #TODO make all the config dependencies also want this version in the package.json
       - uses: JS-DevTools/npm-publish@v3
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./packages/${{matrix.package}}/package.json
-      - uses: actions/upload-artifact@v4
-        with:
-          name: ${{ matrix.package }}
-          path: ./packages/${{matrix.package}}/package.json
-          retention-days: 1
-  update-repo:
-    name: Update Repository state
-    needs: npm-publish
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
-        with:
-          name: eslint-config-base
-          path: ./packages/eslint-config-base
-      - uses: actions/download-artifact@v4
-        with:
-          name: eslint-config-node
-          path: ./packages/eslint-config-node
-      - uses: actions/download-artifact@v4
-        with:
-          name: eslint-config-browser
-          path: ./packages/eslint-config-browser
-      - uses: actions/download-artifact@v4
-        with:
-          name: eslint-config-babel
-          path: ./packages/eslint-config-babel
-      - uses: actions/download-artifact@v4
-        with:
-          name: eslint-config-extension
-          path: ./packages/eslint-config-extension
-      - uses: actions/download-artifact@v4
-        with:
-          name: eslint-config-react
-          path: ./packages/eslint-config-react
-      - uses: actions/download-artifact@v4
-        with:
-          name: eslint-config-test
-          path: ./packages/eslint-config-test
-      - uses: actions/download-artifact@v4
-        with:
-          name: eslint-config-vue
-          path: ./packages/eslint-config-vue
-      - uses: actions/download-artifact@v4
-        with:
-          name: eslint-config-webpack
-          path: ./packages/eslint-config-webpack
-      #TODO tag version?
-      - run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add ./packages/*/package.json
-          git commit -m "chore: bump package versions"
-          git push origin HEAD:main
