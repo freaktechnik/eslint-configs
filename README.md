@@ -21,4 +21,7 @@ To bump the version, use the following kind of command:
 
 ```sh
 npm version --workspaces <target version>
+git commit -am "<version>"
+git tag -s -m "v<version>" v<version>
 ```
+The CI will then publish all the individual packages.
