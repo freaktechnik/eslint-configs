@@ -27,4 +27,7 @@ export default [
             "unicorn/prefer-event-target": "error",
         },
     },
+    {
+        ignores: [ "node_modules" ],
+    },
 ];

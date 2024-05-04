@@ -295,7 +295,7 @@ export default [
             "no-new-native-nonconstructor": "error",
             "no-empty-static-block": "error",
             "promise/always-return": 1,
-            "promise/prefer-await-to-then": "warn",
+            "promise/prefer-await-to-then": "off", // "warn", disabled until the plugin is compatible.
             "security/detect-non-literal-fs-filename": 0,
             "sort-class-members/sort-class-members": [
                 2,
@@ -407,7 +407,6 @@ export default [
             "promise/no-promise-in-callback": "off",
             "promise/no-nesting": "off",
             "promise/no-callback-in-promise": "off",
-            "promise/prefer-await-to-then": "off"
         },
         settings: {
             jsdoc: {
