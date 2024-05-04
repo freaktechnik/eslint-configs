@@ -402,10 +402,12 @@ export default [
             "unicorn/prefer-string-replace-all": "warn",
             "unicorn/prefer-optional-catch-binding": "warn",
             "optimize-regex/optimize-regex": "warn",
+            // Disabled to make this work in eslint 9
             "promise/no-return-wrap": "off",
             "promise/no-promise-in-callback": "off",
             "promise/no-nesting": "off",
             "promise/no-callback-in-promise": "off",
+            "promise/prefer-await-to-then": "off"
         },
         settings: {
             jsdoc: {
