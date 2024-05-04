@@ -38,13 +38,16 @@
     "globals": "^15.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.40.0"
+    "eslint": "^9.0.0"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "publishConfig": {
     "provenance": true
   },
-  "type": "module"
+  "type": "module",
+  "overrides": {
+    "eslint": "$eslint"
+  }
 }

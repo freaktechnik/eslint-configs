@@ -21,9 +21,6 @@
     "url": "https://github.com/freaktechnik/eslint-configs/issues"
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
-  "peerDependencies": {
-    "eslint": ">=8.27.0"
-  },
   "dependencies": {
     "@eslint/eslintrc": "^3.0.2",
     "@freaktechnik/eslint-config-babel": "^10.0.6",
@@ -33,11 +30,17 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.2"
   },
+  "peerDependencies": {
+    "eslint": "^9.0.0"
+  },
   "engines": {
-    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+    "node": ">=18.0.0"
   },
   "publishConfig": {
     "provenance": true
   },
-  "type": "module"
+  "type": "module",
+  "overrides": {
+    "eslint": "$eslint"
+  }
 }

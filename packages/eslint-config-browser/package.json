@@ -21,17 +21,17 @@
     "url": "https://github.com/freaktechnik/eslint-configs/issues"
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
-  "peerDependencies": {
-    "eslint": ">=8.27.0"
-  },
   "dependencies": {
     "@freaktechnik/eslint-config-base": "^10.0.6",
     "eslint-plugin-compat": "^4.2.0",
     "eslint-plugin-xss": "^0.1.12",
     "globals": "^15.0.0"
   },
+  "peerDependencies": {
+    "eslint": "^9.0.0"
+  },
   "engines": {
-    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+    "node": ">=18.0.0"
   },
   "publishConfig": {
     "provenance": true

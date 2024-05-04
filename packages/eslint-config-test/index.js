@@ -1,14 +1,6 @@
 import eslintConfigNode from "@freaktechnik/eslint-config-node";
 import ava from "eslint-plugin-ava";
-import { FlatCompat } from "@eslint/eslintrc";
-import path from "path";
-import { fileURLToPath } from "url";
 
-const dirname = path.dirname(fileURLToPath(import.meta.url)),
-    compat = new FlatCompat({
-        baseDirectory: dirname,
-        resolvePluginsRelativeTo: dirname,
-    }),
     // [
     //     importErrors,
     //     importWarnings,
@@ -19,8 +11,7 @@ const dirname = path.dirname(fileURLToPath(import.meta.url)),
     ] = eslintConfigNode;
 
 export default [
-    // Assume config base is already applying.
-    ...compat.extends("plugin:ava/recommended"),
+    // Assume config base is already applying.,
     {
         files: [ "test/**/*.js" ],
         plugins: {
@@ -38,6 +29,7 @@ export default [
             // ...importWarnings.rules,
             ...nodeRecommended.rules,
             ...nodeConfig.rules,
+            ...ava.configs["flat/recommended"].rules,
             "jsdoc/check-param-names": 0,
             "jsdoc/check-tag-names": 0,
             "jsdoc/check-types": 0,
@@ -50,14 +42,14 @@ export default [
             "jsdoc/require-returns-description": 0,
             "one-var": 0,
             "no-magic-numbers": 0,
-            "node/no-unsupported-features": 0,
+            "n/no-unsupported-features": 0,
             "filenames/match-regex": [
                 2,
                 "^_?[a-z0-9-]+$",
             ],
             "security/detect-non-literal-fs-filename": 0,
             "tree-shaking/no-side-effects-in-initialization": 0,
-            "node/no-unsupported-features/es-syntax": [
+            "n/no-unsupported-features/es-syntax": [
                 "error",
                 {
                     "ignores": [

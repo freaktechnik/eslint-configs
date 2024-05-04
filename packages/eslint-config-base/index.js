@@ -408,6 +408,10 @@ export default [
             "unicorn/prefer-replace-all": "warn",
             "unicorn/prefer-optional-catch-binding": "warn",
             "optimize-regex/optimize-regex": "warn",
+            "promise/no-return-wrap": "off",
+            "promise/no-promise-in-callback": "off",
+            "promise/no-nesting": "off",
+            "promise/no-callback-in-promise": "off",
         },
         settings: {
             jsdoc: {

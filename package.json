@@ -2,7 +2,7 @@
   "name": "eslint-configs-freaktechnik",
   "devDependencies": {
     "@freaktechnik/eslint-config-base": "^10.0.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-jsdoc": "^48.2.3",
     "eslint-plugin-optimize-regex": "^1.2.1",
     "eslint-plugin-promise": "^6.1.1",
@@ -38,10 +38,13 @@
   ],
   "version": "10.0.6",
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "publishConfig": {
     "provenance": true
   },
-  "type": "module"
+  "type": "module",
+  "overrides": {
+    "eslint": "$eslint"
+  }
 }
