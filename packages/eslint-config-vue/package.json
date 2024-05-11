@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-vue",
-  "version": "10.0.9",
+  "version": "10.0.10",
   "description": "Vue specific eslint config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
