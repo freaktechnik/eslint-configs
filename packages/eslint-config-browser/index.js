@@ -2,6 +2,7 @@ import globals from "globals";
 import eslintConfigBase from "@freaktechnik/eslint-config-base";
 import xss from "eslint-plugin-xss";
 import compat from "eslint-plugin-compat";
+import { fixupPluginRules } from "@eslint/compat";
 
 export default [
     ...eslintConfigBase,
@@ -19,14 +20,14 @@ export default [
             ecmaVersion: "latest",
         },
         plugins: {
-            xss,
+            xss: fixupPluginRules(xss),
             compat,
         },
         rules: {
-            "xss/no-mixed-html": 2,
-            "xss/no-location-href-assign": 2,
-            "compat/compat": 2,
-            "tree-shaking/no-side-effects-in-initialization": 0,
+            "xss/no-mixed-html": "error",
+            "xss/no-location-href-assign": "error",
+            "compat/compat": "error",
+            "tree-shaking/no-side-effects-in-initialization": "off",
             "unicorn/prefer-add-event-listener": "error",
             "unicorn/prefer-dom-node-append": "warn",
             "unicorn/prefer-dom-node-remove": "warn",

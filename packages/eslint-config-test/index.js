@@ -12,7 +12,10 @@ const [
 
 // Assume config base is already applying.,
 export default [ {
-    files: [ "test/**/*.js" ],
+    files: [
+        "test/**/*.js",
+        "test/**/*.mjs",
+    ],
     plugins: {
         // ...importErrors.plugins,
         // ...importWarnings.plugins,
