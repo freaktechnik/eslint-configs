@@ -13,10 +13,6 @@ export default [
                 "error",
                 4,
             ],
-            "filenames/match-regex": [
-                2,
-                "^[A-Za-z0-9-]+$",
-            ],
         },
     },
 ];

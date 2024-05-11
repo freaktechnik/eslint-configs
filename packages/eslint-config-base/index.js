@@ -1,7 +1,6 @@
 import globals from "globals";
 import jsdoc from "eslint-plugin-jsdoc";
 import jsonLight from "eslint-plugin-json-light";
-import filenames from "eslint-plugin-filenames";
 import sortClassMembers from "eslint-plugin-sort-class-members";
 import unicorn from "eslint-plugin-unicorn";
 import optimizeRegex from "eslint-plugin-optimize-regex";
@@ -13,6 +12,7 @@ import { fileURLToPath } from "url";
 import security from "eslint-plugin-security";
 import arrayFunc from "eslint-plugin-array-func";
 import { fixupConfigRules } from "@eslint/compat";
+import checkFile from "eslint-plugin-check-file";
 
 const dirname = path.dirname(fileURLToPath(import.meta.url)),
     compat = new FlatCompat({
@@ -31,12 +31,16 @@ export default [
         files: [ "**/*" ],
         plugins: {
             editorconfig,
-            filenames,
+            "check-file": checkFile,
         },
         rules: {
-            "filenames/match-regex": [
-                2,
-                "^[a-z0-9-.]+$",
+            "check-file/filename-naming-convention": [
+                "error",
+                {
+                    "test/**/*.{js,mjs,jsx}": "^_?[a-z0-9-]+$",
+                    "**/*.{.vue,jsx}": "^[A-Za-z0-9-]+$",
+                    "**/*": "^[a-z0-9-.]+$",
+                },
             ],
         },
         ...(compat.extends("plugin:editorconfig/all")[0]),
@@ -57,7 +61,6 @@ export default [
         },
         plugins: {
             jsdoc,
-            filenames,
             "sort-class-members": sortClassMembers,
             unicorn,
             "optimize-regex": optimizeRegex,

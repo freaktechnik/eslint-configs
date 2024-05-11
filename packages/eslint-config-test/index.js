@@ -42,10 +42,6 @@ export default [ {
         "one-var": 0,
         "no-magic-numbers": 0,
         "n/no-unsupported-features": 0,
-        "filenames/match-regex": [
-            2,
-            "^_?[a-z0-9-]+$",
-        ],
         "security/detect-non-literal-fs-filename": 0,
         "tree-shaking/no-side-effects-in-initialization": 0,
         "n/no-unsupported-features/es-syntax": [
