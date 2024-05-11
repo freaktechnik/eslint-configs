@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-node",
-  "version": "10.0.7",
+  "version": "10.0.8",
   "description": "Node specific eslint config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
