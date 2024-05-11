@@ -24,7 +24,7 @@ export default [
             compat,
         },
         rules: {
-            "xss/no-mixed-html": "error",
+            "xss/no-mixed-html": "off", // "error" - disabled due to https://github.com/Rantanen/eslint-plugin-xss/issues/15#issuecomment-2105744706
             "xss/no-location-href-assign": "error",
             "compat/compat": "error",
             "tree-shaking/no-side-effects-in-initialization": "off",
