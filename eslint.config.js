@@ -10,10 +10,10 @@ export default [
             },
         },
         rules: {
-            "no-magic-numbers": 0
-        }
+            "no-magic-numbers": 0,
+        },
     },
     {
-        ignores: ["node_modules"],
+        ignores: [ "node_modules" ],
     },
 ];

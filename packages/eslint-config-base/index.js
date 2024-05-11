@@ -12,6 +12,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import security from "eslint-plugin-security";
 import arrayFunc from "eslint-plugin-array-func";
+import { fixupConfigRules } from "@eslint/compat";
 
 const dirname = path.dirname(fileURLToPath(import.meta.url)),
     compat = new FlatCompat({
@@ -24,7 +25,7 @@ const dirname = path.dirname(fileURLToPath(import.meta.url)),
 export default [
     js.configs.recommended,
     arrayFunc.configs.recommended,
-    ...compat.extends("plugin:promise/recommended"),
+    ...fixupConfigRules(compat.extends("plugin:promise/recommended")),
     security.configs.recommended,
     {
         files: [ "**/*" ],
@@ -401,12 +402,10 @@ export default [
             "unicorn/prefer-native-coercion-functions": "warn",
             "unicorn/prefer-string-replace-all": "warn",
             "unicorn/prefer-optional-catch-binding": "warn",
+            "unicorn/consistent-empty-array-spread": "error",
+            "unicorn/no-invalid-fetch-options": "warn",
+            "unicorn/prefer-structured-clone": "error",
             "optimize-regex/optimize-regex": "warn",
-            // Disabled to make this work in eslint 9
-            "promise/no-return-wrap": "off",
-            "promise/no-promise-in-callback": "off",
-            "promise/no-nesting": "off",
-            "promise/no-callback-in-promise": "off",
         },
         settings: {
             jsdoc: {
