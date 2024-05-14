@@ -3,11 +3,11 @@ groups:
   configs:
     applies-to: version-updates
     patterns:
-      - "@freaktechnik/eslint-config-*"$
+      - "@freaktechnik/eslint-config-*"
   babel:
     applies-to: version-updates
     patterns:
-      - @babel/*
+      - "@babel/*""
 updates:
   - package-ecosystem: "npm"
     directory: "/"
