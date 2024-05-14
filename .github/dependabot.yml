@@ -7,7 +7,7 @@ groups:
   babel:
     applies-to: version-updates
     patterns:
-      - "@babel/*""
+      - "@babel/*"
 updates:
   - package-ecosystem: "npm"
     directory: "/"
