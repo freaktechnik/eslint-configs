@@ -1,13 +1,4 @@
 version: 2
-groups:
-  configs:
-    applies-to: version-updates
-    patterns:
-      - "@freaktechnik/eslint-config-*"
-  babel:
-    applies-to: version-updates
-    patterns:
-      - "@babel/*"
 updates:
   - package-ecosystem: "npm"
     directory: "/"
@@ -17,6 +8,15 @@ updates:
       prefix: "chore:"
     open-pull-requests-limit: 3
     versioning-strategy: "increase"
+    groups:
+      configs:
+        applies-to: version-updates
+        patterns:
+          - "@freaktechnik/eslint-config-*"
+      babel:
+        applies-to: version-updates
+        patterns:
+          - "@babel/*"
   # - package-ecosystem: "npm"
   #   directory: "/packages/eslint-config-babel"
   #   schedule:
