@@ -1,6 +1,6 @@
 # eslint-configs
 
-Basic configurations freaktechnik really likes. They are pretty opinionated and other people will probably find them disgusting. Don't forget to add `--ext json,js` to your eslint invocation.
+Basic configurations freaktechnik really likes. They are pretty opinionated and other people will probably find them disgusting.
 
 Configurations are published under the @freaktechnik namespace.
 
