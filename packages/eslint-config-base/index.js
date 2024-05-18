@@ -410,6 +410,9 @@ export default [
             "unicorn/prefer-structured-clone": "error",
             "optimize-regex/optimize-regex": "warn",
             "no-useless-assignment": "warn",
+            "unicorn/prefer-blob-reading-methods": "warn",
+            "unicorn/no-await-in-promise-methods": "error",
+            "unicorn/no-single-promise-in-promise-methods": "error",
         },
         settings: {
             jsdoc: {
