@@ -4,7 +4,7 @@ import jsonLight from "eslint-plugin-json-light";
 import sortClassMembers from "eslint-plugin-sort-class-members";
 import unicorn from "eslint-plugin-unicorn";
 import optimizeRegex from "eslint-plugin-optimize-regex";
-import editorconfig from "eslint-plugin-editorconfig";
+// import editorconfig from "eslint-plugin-editorconfig";
 import js from "@eslint/js";
 import { FlatCompat } from "@eslint/eslintrc";
 import path from "path";
@@ -30,20 +30,20 @@ export default [
     {
         files: [ "**/*" ],
         plugins: {
-            editorconfig,
+            // editorconfig,
             "check-file": checkFile,
         },
         rules: {
             "check-file/filename-naming-convention": [
                 "error",
                 {
-                    "test/**/*.{js,mjs,jsx}": "^_?[a-z0-9-]+$",
-                    "**/*.{.vue,jsx}": "^[A-Za-z0-9-]+$",
-                    "**/*": "^[a-z0-9-.]+$",
+                    "test/**/*.{js,mjs,jsx}": "*(_)+([a-z0-9-])",
+                    "**/*.{.vue,jsx}": "+([A-Za-z0-9-])",
+                    "**/*": "+([a-z0-9-.])",
                 },
             ],
         },
-        ...(compat.extends("plugin:editorconfig/all")[0]),
+        // ...(compat.extends("plugin:editorconfig/all")[0]),
     },
     {
         files: [
