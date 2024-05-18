@@ -409,6 +409,7 @@ export default [
             "unicorn/no-invalid-fetch-options": "warn",
             "unicorn/prefer-structured-clone": "error",
             "optimize-regex/optimize-regex": "warn",
+            "no-useless-assignment": "warn",
         },
         settings: {
             jsdoc: {
