@@ -5,6 +5,7 @@ import reactHooks from "eslint-plugin-react-hooks";
 import { FlatCompat } from "@eslint/eslintrc";
 import path from "path";
 import { fileURLToPath } from "url";
+import jsxA11y from "eslint-plugin-jsx-a11y";
 
 const dirname = path.dirname(fileURLToPath(import.meta.url)),
     compat = new FlatCompat({
@@ -16,9 +17,13 @@ export default [
     ...eslintConfigBrowser,
     ...eslintConfigWebpack,
     ...eslintConfigBabel,
-    ...compat.extends("plugin:react/recommended", "plugin:jsx-a11y/recommended"),
+    ...compat.extends("plugin:react/recommended"),
+    jsxA11y.flatConfigs.recommended,
     {
-        files: [ "**/*.jsx" ],
+        files: [
+            "**/*.jsx",
+            "**/*.mjsx",
+        ],
         plugins: {
             "react-hooks": reactHooks,
         },
