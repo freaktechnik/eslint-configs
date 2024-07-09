@@ -402,6 +402,7 @@ export default [
             "unicorn/prefer-blob-reading-methods": "warn",
             "unicorn/no-await-in-promise-methods": "error",
             "unicorn/no-single-promise-in-promise-methods": "error",
+            "unicorn/no-negation-in-equality-check": "warn",
         },
         settings: {
             jsdoc: {
