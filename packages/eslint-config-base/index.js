@@ -6,27 +6,16 @@ import unicorn from "eslint-plugin-unicorn";
 import optimizeRegex from "eslint-plugin-optimize-regex";
 // import editorconfig from "eslint-plugin-editorconfig";
 import js from "@eslint/js";
-import { FlatCompat } from "@eslint/eslintrc";
-import path from "path";
-import { fileURLToPath } from "url";
 import security from "eslint-plugin-security";
 import arrayFunc from "eslint-plugin-array-func";
-import { fixupConfigRules } from "@eslint/compat";
 import checkFile from "eslint-plugin-check-file";
-
-const dirname = path.dirname(fileURLToPath(import.meta.url)),
-    compat = new FlatCompat({
-        baseDirectory: dirname,
-        resolvePluginsRelativeTo: dirname,
-        recommendedConfig: js.configs.recommended,
-        allConfig: js.configs.all,
-    });
+import promise from "eslint-plugin-promise";
 
 export default [
     js.configs.recommended,
     arrayFunc.configs.recommended,
-    ...fixupConfigRules(compat.extends("plugin:promise/recommended")),
     security.configs.recommended,
+    promise.configs["flat/recommended"],
     {
         files: [ "**/*" ],
         plugins: {
