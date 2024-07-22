@@ -28,7 +28,7 @@
     "@eslint/eslintrc": "^3.1.0",
     "eslint-import-resolver-webpack": "^0.13.8",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-tree-shaking": "^1.12.1",
+    "eslint-plugin-tree-shaking": "^1.12.2",
     "globals": "^15.8.0"
   },
   "engines": {
