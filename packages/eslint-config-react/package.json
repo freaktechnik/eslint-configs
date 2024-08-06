@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
-    "@eslint/eslintrc": "^3.1.0",
     "@freaktechnik/eslint-config-babel": "^10.0.6",
     "@freaktechnik/eslint-config-browser": "^10.0.10",
     "@freaktechnik/eslint-config-webpack": "^10.0.6",

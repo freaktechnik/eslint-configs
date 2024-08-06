@@ -2,22 +2,14 @@ import eslintConfigBrowser from "@freaktechnik/eslint-config-browser";
 import eslintConfigWebpack from "@freaktechnik/eslint-config-webpack";
 import eslintConfigBabel from "@freaktechnik/eslint-config-babel";
 import reactHooks from "eslint-plugin-react-hooks";
-import { FlatCompat } from "@eslint/eslintrc";
-import path from "path";
-import { fileURLToPath } from "url";
 import jsxA11y from "eslint-plugin-jsx-a11y";
-
-const dirname = path.dirname(fileURLToPath(import.meta.url)),
-    compat = new FlatCompat({
-        baseDirectory: dirname,
-        resolvePluginsRelativeTo: dirname,
-    });
+import reactPlugin from "eslint-plugin-react";
 
 export default [
     ...eslintConfigBrowser,
     ...eslintConfigWebpack,
     ...eslintConfigBabel,
-    ...compat.extends("plugin:react/recommended"),
+    reactPlugin.configs.flat.recommended,
     jsxA11y.flatConfigs.recommended,
     {
         files: [
