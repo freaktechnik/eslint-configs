@@ -1,14 +1,13 @@
 import globals from "globals";
 import eslintConfigBrowser from "@freaktechnik/eslint-config-browser";
 import nounsanitized from "eslint-plugin-no-unsanitized";
-import { fixupPluginRules } from "@eslint/compat";
 
 export default [
     ...eslintConfigBrowser,
     {
         files: [ "**/*.js" ],
         plugins: {
-            "no-unsanitized": fixupPluginRules(nounsanitized),
+            "no-unsanitized": nounsanitized,
         },
         languageOptions: {
             globals: {
