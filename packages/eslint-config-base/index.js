@@ -403,6 +403,7 @@ export default [
             "unicorn/no-await-in-promise-methods": "error",
             "unicorn/no-single-promise-in-promise-methods": "error",
             "unicorn/no-negation-in-equality-check": "warn",
+            "unicorn/no-length-as-slice-end": "error",
         },
         settings: {
             jsdoc: {
