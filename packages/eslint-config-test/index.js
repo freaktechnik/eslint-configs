@@ -6,9 +6,9 @@ import ava from "eslint-plugin-ava";
 //     importWarnings,
 // ] = compat.extends("plugin:import/errors", "plugin:import/warnings"),
 const [
-    , nodeRecommended,
+    nodeRecommended,
     nodeConfig,
-] = eslintConfigNode;
+] = eslintConfigNode.slice(-3);
 
 // Assume config base is already applying.,
 export default [ {
