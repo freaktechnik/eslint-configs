@@ -1,12 +1,12 @@
 {
   "name": "eslint-configs-freaktechnik",
   "devDependencies": {
-    "@freaktechnik/eslint-config-base": "^10.0.0",
+    "@freaktechnik/eslint-config-base": "^10.1.0",
     "eslint": "^9.11.1",
     "globals": "^15.9.0"
   },
   "scripts": {
-    "lint": "eslint packages/ *.json eslint.config.js",
+    "lint": "eslint .",
     "test": "npm run lint"
   },
   "repository": {

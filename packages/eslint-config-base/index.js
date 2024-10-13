@@ -1,6 +1,5 @@
 import globals from "globals";
 import jsdoc from "eslint-plugin-jsdoc";
-import jsonLight from "eslint-plugin-json-light";
 import sortClassMembers from "eslint-plugin-sort-class-members";
 import unicorn from "eslint-plugin-unicorn";
 import optimizeRegex from "eslint-plugin-optimize-regex";
@@ -10,9 +9,9 @@ import security from "eslint-plugin-security";
 import arrayFunc from "eslint-plugin-array-func";
 import checkFile from "eslint-plugin-check-file";
 import promise from "eslint-plugin-promise";
+import json from "@eslint/json";
 
 export default [
-    js.configs.recommended,
     arrayFunc.configs.recommended,
     security.configs.recommended,
     promise.configs["flat/recommended"],
@@ -21,6 +20,7 @@ export default [
         plugins: {
             // editorconfig,
             "check-file": checkFile,
+            json,
         },
         rules: {
             "check-file/filename-naming-convention": [
@@ -58,6 +58,7 @@ export default [
             reportUnusedDisableDirectives: true,
         },
         rules: {
+            ...js.configs.recommended.rules,
             "jsdoc/check-access": 1,
             "jsdoc/check-alignment": 2,
             "jsdoc/check-param-names": 2,
@@ -422,9 +423,8 @@ export default [
     },
     {
         files: [ "**/*.json" ],
-        plugins: {
-            "json-light": jsonLight,
-        },
-        processor: jsonLight.processors[".json"],
+        ignores: [ "package-lock.json" ],
+        language: "json/json",
+        ...json.configs.recommended,
     },
 ];
