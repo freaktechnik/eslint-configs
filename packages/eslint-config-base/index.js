@@ -404,6 +404,8 @@ export default [
             "unicorn/no-single-promise-in-promise-methods": "error",
             "unicorn/no-negation-in-equality-check": "warn",
             "unicorn/no-length-as-slice-end": "error",
+            "unicorn/prefer-math-min-max": "error",
+            "unicorn/prefer-global-this": "warn",
         },
         settings: {
             jsdoc: {
