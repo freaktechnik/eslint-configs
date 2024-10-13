@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [7.2.0](https://github.com/freaktechnik/eslint-configs/compare/v7.1.0...v7.2.0) (2020-05-09)
+## [7.2.0](https://github.com/freaktechnik/eslint-configs/compare/v7.1.0...v7.2.0) (2020-05-09)
 
 
 ### Bug Fixes
@@ -22,7 +22,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [7.1.0](https://github.com/freaktechnik/eslint-configs/compare/v7.0.0...v7.1.0) (2020-02-26)
+## [7.1.0](https://github.com/freaktechnik/eslint-configs/compare/v7.0.0...v7.1.0) (2020-02-26)
 
 
 ### Features
@@ -33,7 +33,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [7.0.0](https://github.com/freaktechnik/eslint-configs/compare/v6.6.3...v7.0.0) (2019-10-12)
+## [7.0.0](https://github.com/freaktechnik/eslint-configs/compare/v6.6.3...v7.0.0) (2019-10-12)
 
 
 ### Features
@@ -66,7 +66,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [6.6.0](https://github.com/freaktechnik/eslint-configs/compare/v6.5.4...v6.6.0) (2019-02-15)
+## [6.6.0](https://github.com/freaktechnik/eslint-configs/compare/v6.5.4...v6.6.0) (2019-02-15)
 
 
 ### Features
@@ -89,7 +89,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="6.5.0"></a>
-# [6.5.0](https://github.com/freaktechnik/eslint-configs/compare/v6.4.4...v6.5.0) (2018-09-27)
+## [6.5.0](https://github.com/freaktechnik/eslint-configs/compare/v6.4.4...v6.5.0) (2018-09-27)
 
 
 ### Bug Fixes
@@ -144,7 +144,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="6.4.0"></a>
-# [6.4.0](https://github.com/freaktechnik/eslint-configs/compare/v6.3.5...v6.4.0) (2018-06-18)
+## [6.4.0](https://github.com/freaktechnik/eslint-configs/compare/v6.3.5...v6.4.0) (2018-06-18)
 
 
 ### Features
@@ -177,7 +177,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="6.3.0"></a>
-# [6.3.0](https://github.com/freaktechnik/eslint-configs/compare/v6.2.0...v6.3.0) (2018-02-25)
+## [6.3.0](https://github.com/freaktechnik/eslint-configs/compare/v6.2.0...v6.3.0) (2018-02-25)
 
 
 ### Features
@@ -188,7 +188,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="6.2.0"></a>
-# [6.2.0](https://github.com/freaktechnik/eslint-configs/compare/v6.1.0...v6.2.0) (2018-02-03)
+## [6.2.0](https://github.com/freaktechnik/eslint-configs/compare/v6.1.0...v6.2.0) (2018-02-03)
 
 
 ### Features
@@ -199,7 +199,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="6.1.0"></a>
-# [6.1.0](https://github.com/freaktechnik/eslint-configs/compare/v6.0.0...v6.1.0) (2018-01-15)
+## [6.1.0](https://github.com/freaktechnik/eslint-configs/compare/v6.0.0...v6.1.0) (2018-01-15)
 
 
 ### Features
@@ -210,7 +210,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="6.0.0"></a>
-# [6.0.0](https://github.com/freaktechnik/eslint-configs/compare/v5.2.1...v6.0.0) (2017-10-30)
+## [6.0.0](https://github.com/freaktechnik/eslint-configs/compare/v5.2.1...v6.0.0) (2017-10-30)
 
 
 ### Features

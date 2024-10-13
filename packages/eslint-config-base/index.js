@@ -10,8 +10,10 @@ import arrayFunc from "eslint-plugin-array-func";
 import checkFile from "eslint-plugin-check-file";
 import promise from "eslint-plugin-promise";
 import json from "@eslint/json";
+import markdown from "@eslint/markdown";
 
 export default [
+    ...markdown.configs.recommended,
     arrayFunc.configs.recommended,
     security.configs.recommended,
     promise.configs["flat/recommended"],
