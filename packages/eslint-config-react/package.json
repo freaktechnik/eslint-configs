@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
-    "@freaktechnik/eslint-config-babel": "^10.0.6",
-    "@freaktechnik/eslint-config-browser": "^10.0.10",
-    "@freaktechnik/eslint-config-webpack": "^10.0.6",
+    "@freaktechnik/eslint-config-babel": "^10.1.0",
+    "@freaktechnik/eslint-config-browser": "^10.1.0",
+    "@freaktechnik/eslint-config-webpack": "^10.1.0",
     "eslint-plugin-jsx-a11y": "^6.9.0",
     "eslint-plugin-react": "^7.37.0",
     "eslint-plugin-react-hooks": "^4.6.2"

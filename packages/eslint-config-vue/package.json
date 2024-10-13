@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
-    "@freaktechnik/eslint-config-browser": "^10.0.10",
-    "@freaktechnik/eslint-config-webpack": "^10.0.10",
+    "@freaktechnik/eslint-config-browser": "^10.1.0",
+    "@freaktechnik/eslint-config-webpack": "^10.1.0",
     "eslint-plugin-vue": "^9.28.0"
   },
   "peerDependencies": {
