@@ -3,7 +3,13 @@ import node from "eslint-plugin-n";
 
 export default [
     ...eslintConfigBase,
-    node.configs["flat/recommended-module"],
+    {
+        ...node.configs["flat/recommended-module"],
+        files: [
+            "**/*.js",
+            "**/*.mjs",
+        ],
+    },
     {
         files: [
             "**/*.js",
