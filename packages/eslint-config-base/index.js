@@ -28,8 +28,9 @@ export default [
             "check-file/filename-naming-convention": [
                 "error",
                 {
-                    "**/*": "+([a-z0-9-.])",
-                    "**/*.{.vue,jsx}": "+([A-Za-z0-9-])",
+                    "**/*!{.js,.mjs,.jsx,.vue}": "+([a-z0-9-.])",
+                    "!(test)**/*.{js,mjs}": "+([a-z0-9-.])",
+                    "!(test)**/*.{vue,jsx}": "+([A-Za-z0-9-])",
                     "test/**/*.{js,mjs,jsx}": "*(_)+([a-z0-9-])",
                 },
             ],
