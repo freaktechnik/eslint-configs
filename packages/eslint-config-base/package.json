@@ -24,7 +24,7 @@
   "dependencies": {
     "@eslint/js": "^9.9.0",
     "@eslint/json": "^0.5.0",
-    "@eslint/markdown": "^6.2.0",
+    "@eslint/markdown": "^6.2.1",
     "eslint-plugin-array-func": "^5.0.2",
     "eslint-plugin-check-file": "^2.8.0",
     "eslint-plugin-editorconfig": "^4.0.3",
