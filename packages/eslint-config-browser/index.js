@@ -1,7 +1,7 @@
 import globals from "globals";
 import eslintConfigBase from "@freaktechnik/eslint-config-base";
 import xss from "eslint-plugin-xss";
-import * as compat from "eslint-plugin-compat";
+import compat from "eslint-plugin-compat";
 import { fixupPluginRules } from "@eslint/compat";
 
 export default [
