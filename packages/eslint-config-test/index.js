@@ -1,10 +1,7 @@
 import eslintConfigNode from "@freaktechnik/eslint-config-node";
 import ava from "eslint-plugin-ava";
+import importPlugin from "eslint-plugin-import";
 
-// [
-//     importErrors,
-//     importWarnings,
-// ] = compat.extends("plugin:import/errors", "plugin:import/warnings"),
 const [
     nodeRecommended,
     nodeConfig,
@@ -17,18 +14,18 @@ export default [ {
         "test/**/*.mjs",
     ],
     plugins: {
-        // ...importErrors.plugins,
-        // ...importWarnings.plugins,
         ...nodeRecommended.plugins,
         ava,
+        import: importPlugin,
     },
     languageOptions: {
         ...nodeRecommended.languageOptions,
         ...nodeConfig.languageOptions,
+        sourceType: "module",
     },
     rules: {
-        // ...importErrors.rules,
-        // ...importWarnings.rules,
+        ...importPlugin.flatConfigs.errors.rules,
+        ...importPlugin.flatConfigs.warnings.rules,
         ...nodeRecommended.rules,
         ...nodeConfig.rules,
         ...ava.configs["flat/recommended"].rules,
@@ -57,7 +54,7 @@ export default [ {
             },
         ],
     },
-    // settings: {
-    //     "import/resolver": "node",
-    // },
+    settings: {
+        "import/resolver": "node",
+    },
 } ];
