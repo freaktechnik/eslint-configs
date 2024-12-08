@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-base",
-  "version": "10.1.5",
+  "version": "10.1.6",
   "description": "Basic configuration for JS and JSON linting freaktechnik likes.",
   "main": "index.js",
   "scripts": {
