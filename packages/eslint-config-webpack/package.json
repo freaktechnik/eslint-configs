@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-webpack",
-  "version": "10.1.6",
+  "version": "10.1.7",
   "description": "Webpack specific linting config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
