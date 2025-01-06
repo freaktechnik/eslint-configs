@@ -26,7 +26,7 @@
     "@freaktechnik/eslint-config-base": "^10.1.7",
     "eslint-plugin-compat": "^6.0.1",
     "eslint-plugin-xss": "^0.1.12",
-    "globals": "^15.13.0"
+    "globals": "^15.14.0"
   },
   "peerDependencies": {
     "eslint": "^9.0.0"
