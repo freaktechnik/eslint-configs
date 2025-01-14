@@ -2,7 +2,7 @@
   "name": "eslint-configs-freaktechnik",
   "devDependencies": {
     "@freaktechnik/eslint-config-base": "^10.1.0",
-    "eslint": "^9.17.0",
+    "eslint": "^9.18.0",
     "globals": "^15.14.0"
   },
   "scripts": {
