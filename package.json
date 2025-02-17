@@ -3,7 +3,7 @@
   "devDependencies": {
     "@freaktechnik/eslint-config-base": "^10.1.0",
     "eslint": "^9.18.0",
-    "globals": "^15.14.0"
+    "globals": "^15.15.0"
   },
   "scripts": {
     "lint": "eslint .",
