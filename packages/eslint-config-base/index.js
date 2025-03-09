@@ -343,7 +343,7 @@ export default [
             "unicorn/throw-new-error": "error",
             "unicorn/number-literal-case": "error",
             "unicorn/escape-case": "error",
-            "unicorn/no-instanceof-array": "error",
+            "unicorn/no-instanceof-builtins": "error",
             "unicorn/no-new-buffer": "error",
             "unicorn/no-hex-escape": "error",
             "unicorn/prefer-string-starts-ends-with": "error",
@@ -410,6 +410,9 @@ export default [
             "unicorn/no-length-as-slice-end": "error",
             "unicorn/prefer-math-min-max": "error",
             "unicorn/prefer-global-this": "warn",
+            "unicorn/no-accessor-recursion": "error",
+            "unicorn/no-named-default": "warn",
+            "unicorn/consistent-date-clone": "error",
         },
         settings: {
             jsdoc: {
