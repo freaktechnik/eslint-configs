@@ -1,7 +1,8 @@
 import babelParser from "@babel/eslint-parser";
 import babel from "@babel/eslint-plugin";
+import { defineConfig } from "eslint/config";
 
-export default {
+export default defineConfig({
     files: [
         "**/*.js",
         "**/*.mjs",
@@ -27,4 +28,4 @@ export default {
         "@babel/no-invalid-this": 2,
         "@babel/semi": 2,
     },
-};
+});

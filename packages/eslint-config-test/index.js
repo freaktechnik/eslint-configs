@@ -1,6 +1,7 @@
 import eslintConfigNode from "@freaktechnik/eslint-config-node";
 import ava from "eslint-plugin-ava";
 import importPlugin from "eslint-plugin-import";
+import { defineConfig } from "eslint/config";
 
 const [
     nodeRecommended,
@@ -8,7 +9,7 @@ const [
 ] = eslintConfigNode.slice(-3);
 
 // Assume config base is already applying.,
-export default [ {
+export default defineConfig({
     files: [
         "test/**/*.js",
         "test/**/*.mjs",
@@ -57,4 +58,4 @@ export default [ {
     settings: {
         "import/resolver": "node",
     },
-} ];
+});

@@ -1,14 +1,17 @@
 import eslintConfigBase from "@freaktechnik/eslint-config-base";
 import node from "eslint-plugin-n";
+import {
+ defineConfig, globalIgnores, 
+} from "eslint/config";
 
-export default [
-    ...eslintConfigBase,
+export default defineConfig(
+    eslintConfigBase,
     {
-        ...node.configs["flat/recommended-module"],
         files: [
             "**/*.js",
             "**/*.mjs",
         ],
+        extends: [ node.configs["flat/recommended-module"] ],
     },
     {
         files: [
@@ -33,7 +36,5 @@ export default [
             "unicorn/prefer-event-target": "error",
         },
     },
-    {
-        ignores: [ "node_modules" ],
-    },
-];
+    globalIgnores([ "node_modules" ], "Node modules"),
+);

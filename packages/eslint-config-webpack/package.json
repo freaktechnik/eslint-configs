@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "peerDependencies": {
-    "eslint": ">=8.27.0"
+    "eslint": "^9.22.0"
   },
   "dependencies": {
     "eslint-import-resolver-webpack": "^0.13.10",

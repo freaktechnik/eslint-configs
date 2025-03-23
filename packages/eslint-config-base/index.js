@@ -11,9 +11,10 @@ import checkFile from "eslint-plugin-check-file";
 import promise from "eslint-plugin-promise";
 import json from "@eslint/json";
 import markdown from "@eslint/markdown";
+import { defineConfig } from "eslint/config";
 
-export default [
-    ...markdown.configs.recommended,
+export default defineConfig(
+    markdown.configs.recommended,
     arrayFunc.configs.recommended,
     security.configs.recommended,
     promise.configs["flat/recommended"],
@@ -431,6 +432,6 @@ export default [
         files: [ "**/*.json" ],
         ignores: [ "package-lock.json" ],
         language: "json/json",
-        ...json.configs.recommended,
+        extends: [ json.configs.recommended ],
     },
-];
+);

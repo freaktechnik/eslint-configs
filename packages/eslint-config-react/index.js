@@ -4,11 +4,12 @@ import eslintConfigBabel from "@freaktechnik/eslint-config-babel";
 import reactHooks from "eslint-plugin-react-hooks";
 import jsxA11y from "eslint-plugin-jsx-a11y";
 import reactPlugin from "eslint-plugin-react";
+import { defineConfig } from "eslint/config";
 
-export default [
-    ...eslintConfigBrowser,
-    ...eslintConfigWebpack,
-    ...eslintConfigBabel,
+export default defineConfig(
+    eslintConfigBrowser,
+    eslintConfigWebpack,
+    eslintConfigBabel,
     reactPlugin.configs.flat.recommended,
     jsxA11y.flatConfigs.recommended,
     {
@@ -67,4 +68,4 @@ export default [
             "react-hooks/exhaustive-deps": "warn",
         },
     },
-];
+);

@@ -1,8 +1,9 @@
 import globals from "globals";
 import treeShaking from "eslint-plugin-tree-shaking";
 import importPlugin from 'eslint-plugin-import';
+import { defineConfig } from "eslint/config";
 
-export default [ {
+export default defineConfig({
     languageOptions: {
         globals: {
             ...globals.commonjs,
@@ -22,4 +23,4 @@ export default [ {
         ...importPlugin.flatConfig.warnings.rules,
         "tree-shaking/no-side-effects-in-initialization": "error",
     },
-} ];
+});

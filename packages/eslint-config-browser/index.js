@@ -3,9 +3,10 @@ import eslintConfigBase from "@freaktechnik/eslint-config-base";
 import xss from "eslint-plugin-xss";
 import compat from "eslint-plugin-compat";
 import { fixupPluginRules } from "@eslint/compat";
+import { defineConfig } from "eslint/config";
 
-export default [
-    ...eslintConfigBase,
+export default defineConfig(
+    eslintConfigBase,
     {
         files: [
             "**/*.js",
@@ -38,4 +39,4 @@ export default [
             "unicorn/prefer-keyboard-event-key": "error",
         },
     },
-];
+);

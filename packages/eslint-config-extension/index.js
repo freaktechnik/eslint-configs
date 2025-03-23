@@ -1,9 +1,10 @@
 import globals from "globals";
 import eslintConfigBrowser from "@freaktechnik/eslint-config-browser";
 import nounsanitized from "eslint-plugin-no-unsanitized";
+import { defineConfig } from "eslint/config";
 
-export default [
-    ...eslintConfigBrowser,
+export default defineConfig(
+    eslintConfigBrowser,
     {
         files: [ "**/*.js" ],
         plugins: {
@@ -22,4 +23,4 @@ export default [
             "no-unsanitized/property": "error",
         },
     },
-];
+);
