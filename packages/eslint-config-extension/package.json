@@ -24,7 +24,7 @@
   "dependencies": {
     "@freaktechnik/eslint-config-browser": "^10.1.7",
     "eslint-plugin-no-unsanitized": "^4.1.2",
-    "globals": "^16.0.0"
+    "globals": "^16.1.0"
   },
   "peerDependencies": {
     "eslint": "^9.22.0"

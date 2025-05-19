@@ -28,7 +28,7 @@
     "eslint-import-resolver-webpack": "^0.13.10",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-tree-shaking": "^1.12.2",
-    "globals": "^16.0.0"
+    "globals": "^16.1.0"
   },
   "engines": {
     "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
