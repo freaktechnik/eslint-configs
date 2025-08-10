@@ -414,6 +414,10 @@ export default defineConfig(
             "unicorn/no-accessor-recursion": "error",
             "unicorn/no-named-default": "warn",
             "unicorn/consistent-date-clone": "error",
+            "unicorn/prefer-class-fields": "error",
+            "unicorn/no-array-reverse": "error",
+            "unicorn/require-module-specifiers": "error",
+            "unicorn/no-useless-error-capture-stack-trace": "error",
         },
         settings: {
             jsdoc: {
