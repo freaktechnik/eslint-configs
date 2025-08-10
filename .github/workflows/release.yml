@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: ">=15.8"
+          node-version: ">=20"
           check-latest: true
           cache: 'npm'
       - run: npm i -g npm@latest
@@ -41,12 +41,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: ">=15.8"
+          node-version: ">=20"
           check-latest: true
           cache: 'npm'
       - run: npm i -g npm@latest
       #TODO make all the config dependencies also want this version in the package.json
-      - uses: JS-DevTools/npm-publish@v3
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./packages/${{matrix.package}}/package.json
+      - run: npm publish --workspace @freaktechnik/${{matrix.package}}
