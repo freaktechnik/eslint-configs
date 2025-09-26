@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
-    "@freaktechnik/eslint-config-node": "^10.1.7",
+    "@freaktechnik/eslint-config-node": "^11.0.0",
     "eslint-import-resolver-node": "^0.3.9",
     "eslint-plugin-ava": "^15.1.0",
     "eslint-plugin-import": "^2.32.0"
