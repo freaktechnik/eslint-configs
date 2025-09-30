@@ -418,6 +418,7 @@ export default defineConfig(
             "unicorn/no-array-reverse": "error",
             "unicorn/require-module-specifiers": "error",
             "unicorn/no-useless-error-capture-stack-trace": "error",
+            "unicorn/no-array-sort": "warn",
         },
         settings: {
             jsdoc: {
