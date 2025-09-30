@@ -37,6 +37,7 @@ export default defineConfig(
             "unicorn/prefer-modern-dom-apis": "warn",
             "unicorn/no-invalid-remove-event-listener": "error",
             "unicorn/prefer-keyboard-event-key": "error",
+            "unicorn/prefer-classlist-toggle": "error",
         },
     },
 );
