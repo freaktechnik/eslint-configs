@@ -17,7 +17,7 @@ export default defineConfig(
             "n/no-sync": 1,
             "n/handle-callback-err": 1,
             "n/no-missing-import": 0,
-        }
+        },
     },
     {
         files: [
