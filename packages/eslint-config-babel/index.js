@@ -3,6 +3,7 @@ import babel from "@babel/eslint-plugin";
 import { defineConfig } from "eslint/config";
 
 export default defineConfig({
+    name: "freaktechnik/eslint-config-babel",
     files: [
         "**/*.js",
         "**/*.mjs",

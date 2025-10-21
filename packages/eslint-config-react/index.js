@@ -13,6 +13,7 @@ export default defineConfig(
     reactPlugin.configs.flat.recommended,
     jsxA11y.flatConfigs.recommended,
     {
+        name: "freaktechnik/eslint-config-react",
         files: [
             "**/*.jsx",
             "**/*.mjsx",

@@ -4,6 +4,11 @@ import importPlugin from 'eslint-plugin-import';
 import { defineConfig } from "eslint/config";
 
 export default defineConfig({
+    name: "freaktechnik/eslint-config-webpack",
+    extends: [
+        importPlugin.flatConfigs.errors.rules,
+        importPlugin.flatConfig.warnings.rules,
+    ],
     languageOptions: {
         globals: {
             ...globals.commonjs,
@@ -13,14 +18,11 @@ export default defineConfig({
     },
     plugins: {
         "tree-shaking": treeShaking,
-        import: importPlugin,
     },
     settings: {
         "import/resolver": "webpack",
     },
     rules: {
-        ...importPlugin.flatConfigs.errors.rules,
-        ...importPlugin.flatConfig.warnings.rules,
         "tree-shaking/no-side-effects-in-initialization": "error",
     },
 });

@@ -3,33 +3,31 @@ import ava from "eslint-plugin-ava";
 import importPlugin from "eslint-plugin-import";
 import { defineConfig } from "eslint/config";
 
+// Extract node config slices to apply to this subset. Skipping the node_modules ignore at the end.
 const [
     nodeRecommended,
     nodeConfig,
-] = eslintConfigNode.slice(-3);
+] = eslintConfigNode.slice(-4);
 
-// Assume config base is already applying.,
+// Assume config base is already applying. Not using extends because we want to apply to different files.
 export default defineConfig({
+    name: "freaktechnik/eslint-config-test",
     files: [
         "test/**/*.js",
         "test/**/*.mjs",
     ],
-    plugins: {
-        ...nodeRecommended.plugins,
-        ava,
-        import: importPlugin,
-    },
+    extends: [
+        nodeRecommended,
+        nodeConfig,
+        ava.configs["flat/recommended"],
+        // Using warnings + errors because recommended sets ecmaVersion 2018 <_<
+        importPlugin.flatConfigs.errors,
+        importPlugin.flatConfigs.warnings,
+    ],
     languageOptions: {
-        ...nodeRecommended.languageOptions,
-        ...nodeConfig.languageOptions,
         sourceType: "module",
     },
     rules: {
-        ...importPlugin.flatConfigs.errors.rules,
-        ...importPlugin.flatConfigs.warnings.rules,
-        ...nodeRecommended.rules,
-        ...nodeConfig.rules,
-        ...ava.configs["flat/recommended"].rules,
         "jsdoc/check-param-names": 0,
         "jsdoc/check-tag-names": 0,
         "jsdoc/check-types": 0,

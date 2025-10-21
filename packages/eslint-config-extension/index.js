@@ -6,6 +6,7 @@ import { defineConfig } from "eslint/config";
 export default defineConfig(
     eslintConfigBrowser,
     {
+        name: "freaktechnik/eslint-config-extension",
         files: [ "**/*.js" ],
         plugins: {
             "no-unsanitized": nounsanitized,

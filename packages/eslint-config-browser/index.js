@@ -8,6 +8,7 @@ import { defineConfig } from "eslint/config";
 export default defineConfig(
     eslintConfigBase,
     {
+        name: "freaktechnik/eslint-config-browser",
         files: [
             "**/*.js",
             "**/*.mjs",

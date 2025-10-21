@@ -1,12 +1,13 @@
 import eslintConfigBase from "@freaktechnik/eslint-config-base";
 import node from "eslint-plugin-n";
 import {
- defineConfig, globalIgnores, 
+ defineConfig, globalIgnores,
 } from "eslint/config";
 
 export default defineConfig(
     eslintConfigBase,
     {
+        name: "freaktechnik/eslint-config-node/node-plugin",
         files: [
             "**/*.js",
             "**/*.mjs",
@@ -20,6 +21,7 @@ export default defineConfig(
         },
     },
     {
+        name: "freaktechnik/eslint-config-node/adjustments",
         files: [
             "**/*.js",
             "**/*.mjs",

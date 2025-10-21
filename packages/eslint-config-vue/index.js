@@ -8,6 +8,7 @@ export default defineConfig(
     eslintConfigWebpack,
     vue.configs["flat/vue2-strongly-recommended"],
     {
+        name: "freaktechnik/eslint-config-vue",
         files: [ "**/*.vue" ],
         rules: {
             "vue/html-indent": [

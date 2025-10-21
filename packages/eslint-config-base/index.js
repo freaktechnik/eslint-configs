@@ -19,6 +19,7 @@ export default defineConfig(
     security.configs.recommended,
     promise.configs["flat/recommended"],
     {
+        name: "freaktechnik/eslint-config-base/filenames",
         files: [ "**/*" ],
         plugins: {
             // editorconfig,
@@ -39,6 +40,7 @@ export default defineConfig(
         // ...(compat.extends("plugin:editorconfig/all")[0]),
     },
     {
+        name: "freaktechnik/eslint-config-base/javascript",
         files: [
             "**/*.js",
             "**/*.mjs",
@@ -434,6 +436,7 @@ export default defineConfig(
         },
     },
     {
+        name: "freaktechnik/eslint-config-base/json",
         files: [ "**/*.json" ],
         ignores: [ "package-lock.json" ],
         language: "json/json",
