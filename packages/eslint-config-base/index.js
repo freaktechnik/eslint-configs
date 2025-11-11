@@ -421,6 +421,9 @@ export default defineConfig(
             "unicorn/require-module-specifiers": "error",
             "unicorn/no-useless-error-capture-stack-trace": "error",
             "unicorn/no-array-sort": "warn",
+            "unicorn/no-immediate-mutation": "error",
+            "unicorn/no-useless-collection-argument": "error",
+            "unicorn/prefer-response-static-json": "error",
         },
         settings: {
             jsdoc: {
