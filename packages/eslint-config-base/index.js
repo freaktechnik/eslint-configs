@@ -302,7 +302,7 @@ export default defineConfig(
                 },
             ],
             "promise/always-return": 1,
-            "promise/prefer-await-to-then": "off", // "warn", disabled until the plugin is compatible.
+            "promise/prefer-await-to-then": "warn",
             "security/detect-non-literal-fs-filename": 0,
             "sort-class-members/sort-class-members": [
                 2,
