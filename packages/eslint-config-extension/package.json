@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-extension",
-  "version": "11.0.2",
+  "version": "12.0.0",
   "description": "Browser extension linting config freaktechnik likes.",
   "main": "index.js",
   "scripts": {
