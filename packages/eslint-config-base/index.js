@@ -294,6 +294,13 @@ export default defineConfig(
             "no-constant-binary-expression": "error",
             "no-new-native-nonconstructor": "error",
             "no-empty-static-block": "error",
+            "no-restricted-syntax": [
+                "error",
+                {
+                    selector: "ForInStatement",
+                    message: "Use for..of with Object.entries and similar instead for..in",
+                },
+            ],
             "promise/always-return": 1,
             "promise/prefer-await-to-then": "off", // "warn", disabled until the plugin is compatible.
             "security/detect-non-literal-fs-filename": 0,
