@@ -12,6 +12,7 @@ import promise from "eslint-plugin-promise";
 import json from "@eslint/json";
 import markdown from "@eslint/markdown";
 import { defineConfig } from "eslint/config";
+import noSecrets from "eslint-plugin-no-secrets";
 
 export default defineConfig(
     markdown.configs.recommended,
@@ -38,6 +39,14 @@ export default defineConfig(
             ],
         },
         // ...(compat.extends("plugin:editorconfig/all")[0]),
+    },
+    {
+        plugins: {
+            "no-secrets": noSecrets,
+        },
+        rules: {
+            "no-secrets/no-secrets": "error",
+        },
     },
     {
         name: "freaktechnik/eslint-config-base/javascript",
