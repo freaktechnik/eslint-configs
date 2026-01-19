@@ -23,7 +23,7 @@
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
     "@freaktechnik/eslint-config-base": "^12.0.0",
-    "eslint-plugin-n": "^17.23.1"
+    "eslint-plugin-n": "^17.23.2"
   },
   "peerDependencies": {
     "eslint": "^9.22.0"
