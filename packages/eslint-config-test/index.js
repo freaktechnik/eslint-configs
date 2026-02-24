@@ -19,7 +19,7 @@ export default defineConfig({
     extends: [
         nodeRecommended,
         nodeConfig,
-        ava.configs["flat/recommended"],
+        ava.configs.recommended,
         // Using warnings + errors because recommended sets ecmaVersion 2018 <_<
         importPlugin.flatConfigs.errors,
         importPlugin.flatConfigs.warnings,
