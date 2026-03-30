@@ -440,6 +440,9 @@ export default defineConfig(
             "unicorn/no-immediate-mutation": "error",
             "unicorn/no-useless-collection-argument": "error",
             "unicorn/prefer-response-static-json": "error",
+            "unicorn/no-useless-iterator-to-array": "error",
+            "unicorn/prefer-simple-condition-first": "warn",
+            "unicorn/switch-case-break-position": "error",
         },
         settings: {
             jsdoc: {
