@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-test",
-  "version": "12.0.1",
+  "version": "13.0.0",
   "description": "Ava specific eslint config for tests freaktechnik likes.",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "eslint-plugin-import": "^2.32.0"
   },
   "peerDependencies": {
-    "eslint": "^9.22.0"
+    "eslint": "^10.3.0"
   },
   "engines": {
     "node": ">=18.0.0"
