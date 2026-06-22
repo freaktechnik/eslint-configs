@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
-    "@babel/eslint-parser": "^8.0.0-rc.6",
-    "@babel/eslint-plugin": "^8.0.0-rc.6"
+    "@babel/eslint-parser": "^8.0.1",
+    "@babel/eslint-plugin": "^8.0.1"
   },
   "peerDependencies": {
     "eslint": "^10.3.0"
