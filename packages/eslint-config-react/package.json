@@ -2,44 +2,42 @@
   "name": "@freaktechnik/eslint-config-react",
   "version": "14.0.0",
   "description": "React and JSX linting config freaktechnik likes.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/freaktechnik/eslint-configs.git",
     "directory": "packages/eslint-config-react"
   },
-  "keywords": [
-    "eslintconfig",
-    "eslint"
-  ],
-  "author": "Martin Giger (https://humanoids.be)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/freaktechnik/eslint-configs/issues"
-  },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
-  "dependencies": {
-    "@freaktechnik/eslint-config-babel": "^13.0.0",
-    "@freaktechnik/eslint-config-browser": "^13.0.0",
-    "@freaktechnik/eslint-config-webpack": "^13.0.0",
-    "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^7.1.1"
-  },
-  "peerDependencies": {
-    "eslint": "^10.3.0"
-  },
+  "bugs": "https://github.com/freaktechnik/eslint-configs/issues",
+  "author": "Martin Giger (https://humanoids.be)",
+  "type": "module",
+  "main": "./index.js",
   "engines": {
     "node": ">=18.0.0"
   },
   "publishConfig": {
     "provenance": true
   },
-  "type": "module",
-  "overrides": {
-    "eslint": "$eslint"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint"
+  ],
+  "dependencies": {
+    "@freaktechnik/eslint-config-babel": "^14.1.0",
+    "@freaktechnik/eslint-config-browser": "^14.1.0",
+    "@freaktechnik/eslint-config-webpack": "^14.1.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.13.0"
+  },
+  "peerDependencies": {
+    "eslint": "^10.13.0"
   }
 }

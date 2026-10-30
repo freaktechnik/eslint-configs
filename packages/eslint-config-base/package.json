@@ -2,25 +2,30 @@
   "name": "@freaktechnik/eslint-config-base",
   "version": "14.0.0",
   "description": "Basic configuration for JS and JSON linting freaktechnik likes.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/freaktechnik/eslint-configs.git",
     "directory": "packages/eslint-config-base"
   },
+  "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
+  "bugs": "https://github.com/freaktechnik/eslint-configs/issues",
+  "author": "Martin Giger (https://humanoids.be)",
+  "type": "module",
+  "main": "./index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "provenance": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [
     "eslintconfig",
     "eslint"
   ],
-  "author": "Martin Giger (https://humanoids.be)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/freaktechnik/eslint-configs/issues"
-  },
-  "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
   "dependencies": {
     "@eslint/js": "^10.0.1",
     "@eslint/json": "^2.1.0",
@@ -39,17 +44,10 @@
     "eslint-plugin-unicorn": "^79.0.0",
     "globals": "^17.13.0"
   },
+  "devDependencies": {
+    "eslint": "^10.13.0"
+  },
   "peerDependencies": {
-    "eslint": "^10.3.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "publishConfig": {
-    "provenance": true
-  },
-  "type": "module",
-  "overrides": {
-    "eslint": "$eslint"
+    "eslint": "^10.13.0"
   }
 }

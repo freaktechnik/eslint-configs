@@ -1,25 +1,23 @@
 {
   "name": "eslint-configs-freaktechnik",
-  "devDependencies": {
-    "@freaktechnik/eslint-config-base": "^14.0.0",
-    "eslint": "^10.13.0",
-    "globals": "^17.13.0"
+  "version": "14.0.0",
+  "private": true,
+  "license": "MIT",
+  "repository": "github:freaktechnik/eslint-configs",
+  "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
+  "bugs": "https://github.com/freaktechnik/eslint-configs/issues",
+  "author": "Martin Giger (https://humanoids.be)",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "publishConfig": {
+    "provenance": true
   },
   "scripts": {
     "lint": "eslint .",
     "test": "npm run lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/freaktechnik/eslint-configs.git"
-  },
-  "bugs": {
-    "url": "https://github.com/freaktechnik/eslint-configs/issues"
-  },
-  "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
-  "author": "Martin Giger (https://humanoids.be)",
-  "license": "MIT",
-  "private": true,
   "workspaces": [
     "packages/eslint-config-base",
     "packages/eslint-config-babel",
@@ -31,14 +29,11 @@
     "packages/eslint-config-vue",
     "packages/eslint-config-webpack"
   ],
-  "version": "14.0.0",
-  "engines": {
-    "node": ">=22.0.0"
+  "devDependencies": {
+    "@freaktechnik/eslint-config-base": "^14.0.0",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0"
   },
-  "publishConfig": {
-    "provenance": true
-  },
-  "type": "module",
   "overrides": {
     "eslint": "$eslint"
   }

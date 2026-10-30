@@ -2,40 +2,41 @@
   "name": "@freaktechnik/eslint-config-browser",
   "version": "14.0.0",
   "description": "Eslint config to lint js for the browser freaktechnik likes.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/freaktechnik/eslint-configs.git",
     "directory": "packages/eslint-config-browser"
   },
-  "keywords": [
-    "eslintconfig",
-    "eslint"
-  ],
-  "author": "Martin Giger (https://humanoids.be)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/freaktechnik/eslint-configs/issues"
-  },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
-  "dependencies": {
-    "@eslint/compat": "^2.1.1",
-    "@freaktechnik/eslint-config-base": "^13.0.0",
-    "eslint-plugin-compat": "^7.0.2",
-    "eslint-plugin-xss": "^0.1.12",
-    "globals": "^17.13.0"
-  },
-  "peerDependencies": {
-    "eslint": "^10.3.0"
-  },
+  "bugs": "https://github.com/freaktechnik/eslint-configs/issues",
+  "author": "Martin Giger (https://humanoids.be)",
+  "type": "module",
+  "main": "./index.js",
   "engines": {
     "node": ">=18.0.0"
   },
   "publishConfig": {
     "provenance": true
   },
-  "type": "module"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint"
+  ],
+  "dependencies": {
+    "@eslint/compat": "^2.1.1",
+    "@freaktechnik/eslint-config-base": "^14.1.0",
+    "eslint-plugin-compat": "^7.0.2",
+    "eslint-plugin-xss": "^0.1.12",
+    "globals": "^17.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.13.0"
+  },
+  "peerDependencies": {
+    "eslint": "^10.13.0"
+  }
 }

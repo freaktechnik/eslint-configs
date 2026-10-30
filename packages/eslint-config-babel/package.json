@@ -2,37 +2,38 @@
   "name": "@freaktechnik/eslint-config-babel",
   "version": "14.0.0",
   "description": "Config for usage with babeld projects freaktechnik likes.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/freaktechnik/eslint-configs.git",
     "directory": "packages/eslint-config-babel"
   },
-  "keywords": [
-    "eslintconfig",
-    "eslint"
-  ],
-  "author": "Martin Giger (https://humanoids.be)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/freaktechnik/eslint-configs/issues"
-  },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
-  "dependencies": {
-    "@babel/eslint-parser": "^8.0.7",
-    "@babel/eslint-plugin": "^8.0.6"
-  },
-  "peerDependencies": {
-    "eslint": "^10.3.0"
-  },
+  "bugs": "https://github.com/freaktechnik/eslint-configs/issues",
+  "author": "Martin Giger (https://humanoids.be)",
+  "type": "module",
+  "main": "./index.js",
   "engines": {
     "node": ">=18.0.0"
   },
   "publishConfig": {
     "provenance": true
   },
-  "type": "module"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint"
+  ],
+  "dependencies": {
+    "@babel/eslint-parser": "^8.0.7",
+    "@babel/eslint-plugin": "^8.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^10.13.0"
+  },
+  "peerDependencies": {
+    "eslint": "^10.13.0"
+  }
 }

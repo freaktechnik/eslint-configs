@@ -2,39 +2,40 @@
   "name": "@freaktechnik/eslint-config-webpack",
   "version": "14.0.0",
   "description": "Webpack specific linting config freaktechnik likes.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/freaktechnik/eslint-configs.git",
     "directory": "packages/eslint-config-webpack"
   },
-  "keywords": [
-    "eslintconfig",
-    "eslint"
-  ],
-  "author": "Martin Giger (https://humanoids.be)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/freaktechnik/eslint-configs/issues"
-  },
   "homepage": "https://github.com/freaktechnik/eslint-configs#readme",
-  "peerDependencies": {
-    "eslint": "^10.3.0"
-  },
-  "dependencies": {
-    "eslint-import-resolver-webpack": "^0.13.11",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-tree-shaking": "^1.12.2",
-    "globals": "^17.13.0"
-  },
+  "bugs": "https://github.com/freaktechnik/eslint-configs/issues",
+  "author": "Martin Giger (https://humanoids.be)",
+  "type": "module",
+  "main": "./index.js",
   "engines": {
     "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
   },
   "publishConfig": {
     "provenance": true
   },
-  "type": "module"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint"
+  ],
+  "dependencies": {
+    "eslint-import-resolver-webpack": "^0.13.11",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-tree-shaking": "^1.12.2",
+    "globals": "^17.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.13.0"
+  },
+  "peerDependencies": {
+    "eslint": "^10.13.0"
+  }
 }
