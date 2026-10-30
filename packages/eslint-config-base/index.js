@@ -13,6 +13,7 @@ import json from "@eslint/json";
 import markdown from "@eslint/markdown";
 import { defineConfig } from "eslint/config";
 import noSecrets from "eslint-plugin-no-secrets";
+import packageJson from "eslint-package-json";
 
 export default defineConfig(
     markdown.configs.recommended,
@@ -626,5 +627,13 @@ export default defineConfig(
         ignores: [ "package-lock.json" ],
         language: "json/json",
         extends: [ json.configs.recommended ],
+    },
+    {
+        name: "freaktechnik/eslint-config-base/package-json",
+        files: [ "**/package.json" ],
+        plugins: {
+            "package-json": packageJson,
+        },
+        extends: [ "package-json/recommended" ],
     },
 );
