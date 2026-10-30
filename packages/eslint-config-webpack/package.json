@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-webpack",
-  "version": "14.0.0",
+  "version": "14.1.0",
   "description": "Webpack specific linting config freaktechnik likes.",
   "license": "MIT",
   "repository": {

@@ -1,6 +1,6 @@
 {
   "name": "@freaktechnik/eslint-config-react",
-  "version": "14.0.0",
+  "version": "14.1.0",
   "description": "React and JSX linting config freaktechnik likes.",
   "license": "MIT",
   "repository": {
