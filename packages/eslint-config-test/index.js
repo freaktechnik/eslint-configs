@@ -54,6 +54,7 @@ export default defineConfig({
         ],
         // Demoted to just a warning while the used resolver doesn't support ESM exports.
         "import/no-unresolved": "warn",
+        "unicorn/no-top-level-assignment-in-function": "warn",
     },
     settings: {
         "import/resolver": "node",

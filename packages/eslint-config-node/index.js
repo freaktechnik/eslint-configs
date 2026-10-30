@@ -38,6 +38,11 @@ export default defineConfig(
             "import/no-unresolved": 0,
             "unicorn/text-encoding-identifier-case": "error",
             "unicorn/prefer-event-target": "error",
+            "unicorn/consistent-json-file-read": [
+                "error",
+                "buffer",
+            ],
+            "unicorn/no-exports-in-scripts": "error",
         },
     },
     globalIgnores([ "node_modules" ], "Node modules"),
