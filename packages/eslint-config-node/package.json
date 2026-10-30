@@ -28,7 +28,7 @@
   ],
   "dependencies": {
     "@freaktechnik/eslint-config-base": "^14.1.0",
-    "eslint-plugin-n": "^18.3.0"
+    "eslint-plugin-n": "^18.5.0"
   },
   "devDependencies": {
     "eslint": "^10.13.0"
