@@ -29,7 +29,7 @@
   "dependencies": {
     "@freaktechnik/eslint-config-browser": "^14.1.0",
     "@freaktechnik/eslint-config-webpack": "^14.1.0",
-    "eslint-plugin-vue": "^10.11.1"
+    "eslint-plugin-vue": "^10.12.0"
   },
   "devDependencies": {
     "eslint": "^10.13.0"
