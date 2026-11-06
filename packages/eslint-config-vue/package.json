@@ -32,9 +32,9 @@
     "eslint-plugin-vue": "^10.11.1"
   },
   "devDependencies": {
-    "eslint": "^10.13.0"
+    "eslint": "^10.14.0"
   },
   "peerDependencies": {
-    "eslint": "^10.13.0"
+    "eslint": "^10.14.0"
   }
 }
