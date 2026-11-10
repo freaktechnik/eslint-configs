@@ -638,6 +638,7 @@ export default defineConfig(
         rules: {
             "package-json/prefer-files-field": "warn",
             "package-json/prefer-exports": "off",
+            "no-secrets/no-secrets": "warn",
         },
     },
 );
