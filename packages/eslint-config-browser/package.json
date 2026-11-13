@@ -31,7 +31,7 @@
     "@freaktechnik/eslint-config-base": "^14.1.0",
     "eslint-plugin-compat": "^7.0.2",
     "eslint-plugin-xss": "^0.1.12",
-    "globals": "^17.13.0"
+    "globals": "^17.14.0"
   },
   "devDependencies": {
     "eslint": "^10.14.0"
