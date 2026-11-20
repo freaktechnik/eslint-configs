@@ -27,7 +27,7 @@
     "eslint"
   ],
   "dependencies": {
-    "@babel/eslint-parser": "^8.0.7",
+    "@babel/eslint-parser": "^8.1.2",
     "@babel/eslint-plugin": "^8.1.0"
   },
   "devDependencies": {
